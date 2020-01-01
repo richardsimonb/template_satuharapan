@@ -16,7 +16,7 @@
 		<div>
 		    <img src="<?=baseURL."/".PATH_template?>/images/logo2018_bawah.png" alt="logo bawah" width="169" height="21"/>
 		</div>
-			<span>&copy; Copyright 2012-2019
+			<span>&copy; Copyright 2012-2020
 		    	<br />
 		    	PT Satu Harapan Media
 			    <br />
