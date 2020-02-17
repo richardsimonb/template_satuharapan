@@ -105,13 +105,7 @@ require "header.php";
 				<div class="clear"></div>
 			</div>
 			
-			<div class="fb-page" 
-				data-href="https://www.facebook.com/satuharapan"
-				data-width="635" 
-				data-hide-cover="false"
-				data-show-facepile="false" 
-				data-show-posts="false">
-			</div>
+			<div class="fb-page" data-href="https://www.facebook.com/satuharapan/" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/satuharapan/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/satuharapan/">Satu Harapan</a></blockquote></div>
 			
 			<div class="pagingarticle center">
 				<div class="back">
