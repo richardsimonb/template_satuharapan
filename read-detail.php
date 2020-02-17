@@ -77,20 +77,20 @@ require "header.php";
 			<div class="isiberita"><?=$isi_process?></div>
 
   <div class="share">
-    <div id="twshare" class="center">
+    <div id="twshare">
       <a href="https://twitter.com/share" class="twitter-share-button" data-url="<?=$short_url;?>"  data-via="1harapan" data-counturl="<?=baseURL."/".$route?>">Tweet</a>
     </div>
-    <div id="fbshare" class="center"><div class="fb-share-button" data-href="<?=$short_url;?>" data-type="button_count"></div></div>
+    <div id="fbshare"><div class="fb-share-button" data-href="<?=$short_url;?>" data-type="button_count"></div></div>
     <!-- Place this tag where you want the share button to render. -->
     <!-- <div id="gplusshare" class="left">
 	<div class="g-plus" data-action="share" data-annotation="bubble" data-href="<?=$short_url;?>"></div>
     </div> -->
-    <div id="whatsappshare" class="center">
+    <div id="whatsappshare">
       <!-- share ke Whatsapp by H tgl 1 Nov 2016 -->
       <a href="whatsapp://send?text=<?=baseURL?><?=$_SERVER['REQUEST_URI']?>" data-action="share/whatsapp/share">
       <img src="<?=baseURL.'/'.PATH_template?>images/WA-share.jpg" width="80px" height="20px" alt="Bagikan ke WhatsApp" /></a>
     </div>
-    <div id="lineshare" class="center">
+    <div id="lineshare">
       <div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="<?=baseURL?><?=$_SERVER['REQUEST_URI']?>" data-color="default" data-size="small" data-count="true" style="display: none;"></div>
       <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
       <!-- <script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
