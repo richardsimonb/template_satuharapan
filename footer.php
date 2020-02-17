@@ -7,9 +7,9 @@
 	<div class="socmed sectionfooter">
 		<div class="socmedtitle">Gabung bersama kami</div>
 			<?php
-    		echo '<div>'.$fb.'</div>';
+    			echo '<div>'.$fb.'</div>';
 			echo '<div>'.$tw.'</div>';
-			//echo '<div>'.$gplus.'</div>';
+			echo '<div>'.$gplus.'</div>';
 			?>
 		</div>
 	<div class="copyright sectionfooter">
