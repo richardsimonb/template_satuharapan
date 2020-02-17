@@ -79,7 +79,14 @@
         <a href="<?=baseURL.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
             <img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
         </a>
-    </div> 
+    </div>
+    <div class="fb-page" 
+        data-href="https://www.facebook.com/satuharapan"
+        data-width="309" 
+        data-hide-cover="false"
+        data-show-facepile="false" 
+        data-show-posts="false">
+    </div>
     <!-- <div class=iklan_ataslife_rd><a href="http://www.satuharapan.com/uploads/tx_macinabanners/AdLarryBrook.jpg" target="_blank"><img src="http://www.satuharapan.com/uploads/tx_macinabanners/LarryBrook.jpg" /></a>
     </div>  -->
               
@@ -195,12 +202,6 @@
         <img src="http://www.satuharapan.com/uploads/tx_macinabanners/Iklan_GCDT_II_2016_sm.jpg"  width="309">
         </a>-->
     </div>
-    <div class="fb-page" 
-        data-href="https://www.facebook.com/satuharapan"
-        data-width="309" 
-        data-hide-cover="false"
-        data-show-facepile="false" 
-        data-show-posts="false">
-    </div>
+    
 </div>           
 
