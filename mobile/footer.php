@@ -4,7 +4,7 @@
 		<?php
 		echo '<div id="btm_fb" class="socmedbtm_field float-lt">'.$fb.'</div>';
 		echo '<div id="btm_tw" class="socmedbtm_field float-lt">'.$tw.'</div>';
-		//echo '<div id="btm_gp" class="socmedbtm_field float-lt">'.$gplus.'</div>';
+		echo '<div id="btm_gp" class="socmedbtm_field float-lt">'.$gplus.'</div>';
 		?>
 		<div class="clear"></div>
 	</section>
