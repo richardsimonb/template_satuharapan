@@ -77,7 +77,7 @@ require "header.php";
 			<div class="isiberita"><?=$isi_process?></div>
 
 
-			<div class="share">
+			<div class="share center">
 				<div id="twshare" class="left">
 					<a href="https://twitter.com/share" class="twitter-share-button" data-url="<?=$short_url;?>"  data-via="1harapan" data-counturl="<?=baseURL."/".$route?>">Tweet</a>
 				</div>
