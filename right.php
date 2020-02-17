@@ -170,6 +170,13 @@
 			    </div>
 			    <div class="clear"></div>
 		    </div>
+		    <div class="fb-page" 
+			data-href="https://www.facebook.com/satuharapan"
+			data-width="309" 
+			data-hide-cover="false"
+			data-show-facepile="false" 
+			data-show-posts="false">
+		    </div>
 	    <?php
     	}
     	?>
@@ -179,7 +186,6 @@
     }
     ?>
 
- 
 
   <?php
 //  require "liferight.php";
@@ -190,15 +196,7 @@
             <img src="http://www.satuharapan.com/fileadmin/user_upload/banners/banner_zuri_oktober_1.jpg" width="309" />
         </a>
     </div> -->
-
-    <div class="fb-page" 
-        data-href="https://www.facebook.com/satuharapan"
-        data-width="309" 
-        data-hide-cover="false"
-        data-show-facepile="false" 
-        data-show-posts="false">
-    </div>
-	
+    	
     <div class="isidaftarbaru">
         <!--<a href="http://danautoba.org/gcdt-2016/acara-kegiatan/" target="_blank">
         <img src="http://www.satuharapan.com/uploads/tx_macinabanners/Iklan_GCDT_II_2016_sm.jpg"  width="309">
