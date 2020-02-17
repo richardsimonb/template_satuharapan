@@ -104,6 +104,15 @@ require "header.php";
 
 				<div class="clear"></div>
 			</div>
+			
+			<div class="fb-page" 
+				data-href="https://www.facebook.com/satuharapan"
+				data-width="635" 
+				data-hide-cover="false"
+				data-show-facepile="false" 
+				data-show-posts="false">
+			</div>
+			
 			<div class="pagingarticle center">
 				<div class="back">
 					<a href="<?=$prev?>">
