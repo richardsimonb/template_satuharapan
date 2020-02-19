@@ -2,6 +2,7 @@
 	require "header.php";
 ?>
 
+<!-- Iklan Samping Kanan Kiri -->
 <div style="position:fixed; left:0; top:0; z-index:-1; max-height:600px; max-width:160px; margin-top:30px; display:none;">
 	<img class="img-fluid" src="/fileadmin/user_upload/banners/bannerPKW1.png"/>
 </div>
