@@ -10,7 +10,7 @@
 	if($keyword){
 	?>
         <meta name="keywords" content="<?=$keyword?>" />
-	    <meta property="og:title" content="Satu Harapan: <?=$title?>" />
+	    <meta property="og:title" content="Satu Harapan" /> <!--: <?=$title?>-->
 	    <meta property="og:description" content="<?=$desc?>" />
 	<?php
 	}
@@ -328,7 +328,7 @@
 				<div id="hbar-left">
 					<ul>
 						<li class="first"><a href="<?=baseURL?>"><img src="<?=baseURL.'/'.PATH_template?>images/home.png" width="21" height="17"/></a></li>
-						<?=$topmenu?>
+						<!--<?=$topmenu?>-->
 					</ul>
 				</div>
 				<div id="hbar-right">
