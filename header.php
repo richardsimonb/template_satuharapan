@@ -3,7 +3,7 @@
 <head>
 	<meta name="author" content="PT. Satu Harapan Media | satuharapan.com" />
     <meta name="news_keywords" content="<?=$keyword?>" />
-	<meta name="description" content="satuharapan.com berbagi ruang dalam keragaman" />
+	<meta name="description" content="satuharapan.com Berbagi Ruang Dalam Keragaman" />
 	<meta name="bitly-verification" content="fbdeb1a23940"/>
 	<meta name="viewport" content="target-densitydpi=device-dpi" />
 	<?php
