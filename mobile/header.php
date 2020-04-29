@@ -3,15 +3,15 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="<?=baseURL.'/'.PATH_template?>mobile/style.css?version=1.32" />
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-	<meta name="author" content="Sinar Kasih, satuharapan.com" />
-	<meta name="description" content="satuharapan.com kasih memperbarui kehidupan" />
+	<meta name="author" content="PT. Satu Harapan Media, satuharapan.com" />
+	<meta name="description" content="satuharapan.com Berbagi Ruang Dalam Keragaman" />
 	<meta name="bitly-verification" content="fbdeb1a23940"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> 
 	<?php
 	if($keyword){
 	?>
 	<meta name="keywords" content="<?=$keyword?>" />
-	<meta property="og:title" content="Satu Harapan: <?=$title?>" />
+	<meta property="og:title" content="<?=$title?> - Satu Harapan" />
 	<meta property="og:description" content="<?=$desc?>" />
 	<?php
 	}
@@ -22,7 +22,7 @@
 	?>
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="<?=PATH_image.$og_img?>" />
-	<meta property="og:site_name" content="SatuHarapan.com" />
+	<meta property="og:site_name" content="satuharapan.com" />
 	<meta property="og:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	<meta name="language" content="Indonesia" />
 	<meta name="rating" content="general" />

@@ -10,7 +10,7 @@
 	if($keyword){
 	?>
         <meta name="keywords" content="<?=$keyword?>" />
-	    <meta property="og:title" content="Satu Harapan: <?=$title?>" />
+	    <meta property="og:title" content="<?=$title?> - Satu Harapan" />
 	    <meta property="og:description" content="<?=$desc?>" />
 	<?php
 	}
@@ -21,7 +21,7 @@
 	?>
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="<?=PATH_image.$og_img?>" />
-	<meta property="og:site_name" content="SatuHarapan.com" />
+	<meta property="og:site_name" content="satuharapan.com" />
 	<meta property="og:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	<meta name="rating" content="general" />
 	<meta name="twitter:card" content="summary_large_image" />

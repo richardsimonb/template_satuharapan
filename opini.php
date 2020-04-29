@@ -35,6 +35,7 @@
 	?>
 </div>
 
+<!-- Konten Berita Opini, Analisis, dan Editorial -->
 <?php
 $counter = 0;
 foreach($listnewsopini as $latestnews)
@@ -47,35 +48,36 @@ foreach($listnewsopini as $latestnews)
 		    <span class="left"><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?=baseURL."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
 		    <div class="clear"></div>
 	    </div>
-	<div class="latesttype2case">
-	    <?php
-	foreach($latestnews['berita'] as $list){
-    	$image = explode(",",$list['image']);
-	    resizeFile($image[0],150,100,"150x100_".$image[0]);
-	    ?>
-	    <div class="listlatesttype2 left">
-		<?php
-		if($image[0]!=""){?>
-		    <span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
-    	<?php
-		}
-		?>
-		    <div class="titlelatest left">
-			    <h4><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
-		    </div>
-		    <div class="clear"></div>
-	    </div>
-	<?php
-	}
-	?>
-	    <div class="clear"></div>
-	</div>
-	<div class="clear"></div>
+		<div class="latesttype2case">
+	    	<?php
+			foreach($latestnews['berita'] as $list){
+    			$image = explode(",",$list['image']);
+	    		resizeFile($image[0],150,100,"150x100_".$image[0]);
+	    	?>
+	    		<div class="listlatesttype2 left">
+				<?php
+				if($image[0]!=""){?>
+		    		<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
+    			<?php
+				}
+				?>
+		    	<div class="titlelatest left">
+			    	<h4><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
+		    	</div>
+		    	<div class="clear"></div>
+	    		</div>
+			<?php
+			}
+			?>
+	    	<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
     </div>
+<?php
+	$counter++;
+}?>
 
 <?php
-$counter++;
-}
 /* foreach($listsmashayub as $latestnews)
 {
 	$class = "latesttype2";
