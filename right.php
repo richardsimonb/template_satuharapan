@@ -80,8 +80,8 @@
             <img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
         </a>
     </div>
-    <div class=iklan_ataslife_rd style="max-width:309px;">
-	<img src="/fileadmin/banners/posterpsbpenabur.jpeg"/>
+    <div class=iklan_ataslife_rd>
+	<img src="/fileadmin/banners/posterpsbpenabur.jpeg" style="max-width:309px;"/>
     </div>
     
     <!-- <div class=iklan_ataslife_rd><a href="http://www.satuharapan.com/uploads/tx_macinabanners/AdLarryBrook.jpg" target="_blank"><img src="http://www.satuharapan.com/uploads/tx_macinabanners/LarryBrook.jpg" /></a>
