@@ -80,7 +80,7 @@
             <img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
         </a>
     </div>
-    <div class=iklan_ataslife_rd>
+    <div class=iklan_ataslife_rd style="max-width:309px;">
 	<img src="/fileadmin/banners/posterpsbpenabur.jpeg"/>
     </div>
     
