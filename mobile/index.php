@@ -224,8 +224,11 @@ require "header.php";
 
 		<!-- Tempat Banner full5 -->
 		<div class="share">
-            <a href="<?=baseURL.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a>
-        </div>
+            		<div style="display:none;"><a href="<?=baseURL.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>
+			<a href="https://psb.bpkpenaburjakarta.or.id">
+	   			<img src="/fileadmin/banners/posterpsbpenabur.jpeg"/>
+			</a>
+        	</div>
 		
 
 		<div class="fb-page" 
