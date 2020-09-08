@@ -81,7 +81,9 @@
         </a>
     </div>
     <div class=iklan_ataslife_rd>
-	<img src="/fileadmin/banners/posterpsbpenabur.jpeg" style="max-width:309px;"/>
+	<a href="https://psb.bpkpenaburjakarta.or.id">
+	   <img src="/fileadmin/banners/posterpsbpenabur.jpeg" style="max-width:309px;"/>
+	</a>
     </div>
     
     <!-- <div class=iklan_ataslife_rd><a href="http://www.satuharapan.com/uploads/tx_macinabanners/AdLarryBrook.jpg" target="_blank"><img src="http://www.satuharapan.com/uploads/tx_macinabanners/LarryBrook.jpg" /></a>
