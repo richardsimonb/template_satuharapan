@@ -155,7 +155,7 @@ require "header.php";
 		?>
 		<div class="clear"></div>
 		</div>
-		<div class="bann-mid1">
+		<div class="bann-mid1" style="display:none;">
 		<?php echo getBanner($full4,$banner_path);?>
 		</div>
 		<!-- Posisi Awal Banner full5 -->
