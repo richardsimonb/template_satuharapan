@@ -81,8 +81,8 @@
         </a>
     </div>
     <div class=iklan_ataslife_rd>
-	<a href="https://psb.bpkpenaburjakarta.or.id">
-	   <img src="/fileadmin/banners/posterpsbpenabur.jpeg" style="max-width:309px;"/>
+	<a href="https://bit.ly/penaburkidventure">
+	   <img src="/fileadmin/banners/penaburkidventure1010.jpeg" style="max-width:309px;"/>
 	</a>
     </div>
     
