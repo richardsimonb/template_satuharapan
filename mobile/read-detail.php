@@ -155,14 +155,14 @@ require "header.php";
 		?>
 		<div class="clear"></div>
 		</div>
-		<div class="bann-mid1" style="display:none;">
+		<div class="bann-mid1">
 		<?php echo getBanner($full4,$banner_path);?>
 		</div>
 		<!-- Posisi Awal Banner full5 -->
 		<div class="share">
 			<div style="display:none;"><a href="<?=baseURL.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>
-			<a href="https://psb.bpkpenaburjakarta.or.id">
-	   			<img src="/fileadmin/banners/posterpsbpenabur.jpeg"/>
+			<a href="https://bit.ly/penaburkidventure">
+	   			<img src="/fileadmin/banners/penaburkidventure1010.jpeg"/>
 			</a>
 		</div>
 	</section>
