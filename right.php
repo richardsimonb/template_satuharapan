@@ -6,7 +6,7 @@
 		</a>
     	</div>
 	
-	<div class="clear"></div>
+	<br/>
 	
 	<!-- Bagian Atas -->
 	<div class="blueTitle"><?=$title_blue?></div>
