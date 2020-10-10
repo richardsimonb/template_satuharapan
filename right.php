@@ -6,6 +6,8 @@
 		</a>
     	</div>
 	
+	<div class="clear"></div>
+	
 	<!-- Bagian Atas -->
 	<div class="blueTitle"><?=$title_blue?></div>
 	<div id="ctop-right-photo">
