@@ -1,5 +1,11 @@
 <div id="ctop-right">
 	
+	<div class=iklan_ataslife_rd>
+		<a href="https://sites.google.com/bpkpenabur.or.id/penabur-talents-day">
+		   <img src="/fileadmin/banners/penaburtalentsday.jpeg" style="max-width:309px;"/>
+		</a>
+    	</div>
+	
 	<!-- Bagian Atas -->
 	<div class="blueTitle"><?=$title_blue?></div>
 	<div id="ctop-right-photo">
@@ -79,11 +85,6 @@
         <a href="<?=baseURL.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
             <img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
         </a>
-    </div>
-    <div class=iklan_ataslife_rd>
-	<a href="https://bit.ly/penaburkidventure">
-	   <img src="/fileadmin/banners/penaburkidventure1010.jpeg" style="max-width:309px;"/>
-	</a>
     </div>
     
     <!-- <div class=iklan_ataslife_rd><a href="http://www.satuharapan.com/uploads/tx_macinabanners/AdLarryBrook.jpg" target="_blank"><img src="http://www.satuharapan.com/uploads/tx_macinabanners/LarryBrook.jpg" /></a>
