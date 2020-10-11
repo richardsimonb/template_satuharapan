@@ -36,7 +36,7 @@
 	-->
 	<div id="ctop-right-newsother">
 	    <?php
-    	for($m=1;$m<count($contentPhoto);$m++){
+    	for($m=1;$m<count($contentPhoto)-1;$m++){
 			$image = explode(",",$contentPhoto[$m]['image']);
 	        resizeFile($image[0],150,100,"150x100_".$image[0]);
 	    ?>
@@ -160,7 +160,7 @@
 
 	    <div id="ctop-right-newsother">
 	    <?php
-		    for($m=1;$m<count($contentsmash);$m++){
+		    for($m=1;$m<count($contentsmash)-1;$m++){
 			    $image = explode(",",$contentsmash[$m]['image']);
 			    resizeFile($image[0],150,100,"150x100_".$image[0]);
 	    ?>
