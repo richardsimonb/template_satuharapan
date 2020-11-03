@@ -1,6 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78633708-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-78633708-1');
+	</script>
+
 	<link rel="stylesheet" type="text/css" href="<?=baseURL.'/'.PATH_template?>mobile/style.css?version=1.32" />
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta name="author" content="PT. Satu Harapan Media, satuharapan.com" />
@@ -30,18 +40,7 @@
 	<!--<base href="<?=baseURL?>">-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="shortcut icon" href="<?=baseURL.'/'.PATH_template?>mobile/images/favicon.ico" />
-	<script async="" src="//www.google-analytics.com/analytics.js">
-	</script>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-19662655-20', 'satuharapan.com');
-	  ga('send', 'pageview');
-
-	</script>
+	
 	<script type="text/javascript">
 	var browserName = navigator.appName;
 		var browserVer = parseInt(navigator.appVersion);
