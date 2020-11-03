@@ -1,8 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="id" xmlns="http://www.w3.org/1999/xhtml" xml:lang="id">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78633708-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-78633708-1');
+	</script>
+	
 	<meta name="author" content="PT. Satu Harapan Media | satuharapan.com" />
-    <meta name="news_keywords" content="<?=$keyword?>" />
+    	<meta name="news_keywords" content="<?=$keyword?>" />
 	<meta name="description" content="satuharapan.com Berbagi Ruang Dalam Keragaman" />
 	<meta name="bitly-verification" content="fbdeb1a23940"/>
 	<meta name="viewport" content="target-densitydpi=device-dpi" />
@@ -27,9 +37,9 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@1harapan" />
 	<meta name="twitter:title" content="<?=$title?>" />
-    <meta name="twitter:description" content="<?=$desc?>" />
+    	<meta name="twitter:description" content="<?=$desc?>" />
 	<meta name="twitter:image" content="<?=PATH_image.$og_img?>" />
-    <meta name="twitter:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
+    	<meta name="twitter:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	
 	<title>Satu Harapan: <?=$title?> </title>
 	
@@ -132,18 +142,6 @@
 
 	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/style2.css" />
 	<link rel="shortcut icon" href="<?=baseURL.'/'.PATH_template?>images/favicon.ico" />
-
-	<script async="" src="//www.google-analytics.com/analytics.js"></script>
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78633708-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-78633708-1');
-	</script>
 	
 	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/jquery-1.9.1.min.js?v=1"></script>
 	<script type="text/javascript">
