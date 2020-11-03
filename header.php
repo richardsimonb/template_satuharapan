@@ -135,26 +135,14 @@
 
 	<script async="" src="//www.google-analytics.com/analytics.js"></script>
 	
-	<!--google analytic yang baru dipasang 1 juni 2016-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78633708-1"></script>
 	<script>
-  	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  	    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-  	    ga('create', 'UA-78633708-1', 'auto');
-  	    ga('send', 'pageview');
-	</script>	
-	
-	<!--google analytic yang lama-->
-	<script>
-	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	    ga('create', 'UA-19662655-20', 'satuharapan.com');
-	    ga('send', 'pageview');
+	  gtag('config', 'UA-78633708-1');
 	</script>
 	
 	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/jquery-1.9.1.min.js?v=1"></script>
