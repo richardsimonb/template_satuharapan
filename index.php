@@ -69,7 +69,6 @@
 			        </div>
 			<?php
 			}
-		    //require "iklan_moses.php";
 			?>
 			<div id="kabarterbaru">
 				<div class="blueTitle"><?=$titletopic?></div>
@@ -121,12 +120,8 @@
 
 	<?php
 	require "latestnews.php";
-	//require "bannerKC.php";
 	require "opini.php";
-	//require "iklankarirpacet.php";
 	require "popular.php";
-	//require "galeri_indo.php";
-	//require "galeri_dunia.php";
 	?>
 	<div id="footermenu">
 		<ul>

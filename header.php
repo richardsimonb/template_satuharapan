@@ -37,7 +37,9 @@
 	<meta name="bitly-verification" content="fbdeb1a23940"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/reset.css" />
+
 	<!--<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/text.css" />-->
+
 	<style>
 		/*
 		  960 Grid System ~ Text CSS.
@@ -127,8 +129,10 @@
 		  margin-bottom: 20px;
 		}
 	</style>
+
 	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/style2.css" />
-		<link rel="shortcut icon" href="<?=baseURL.'/'.PATH_template?>images/favicon.ico" />
+	<link rel="shortcut icon" href="<?=baseURL.'/'.PATH_template?>images/favicon.ico" />
+
 	<script async="" src="//www.google-analytics.com/analytics.js"></script>
 	
 	<!--google analytic yang baru dipasang 1 juni 2016-->
@@ -256,8 +260,11 @@
         }); 
     });
     </script>
+
 </head>
+
 <body>
+
     <?php
     if($pages_require == "read-detail.php"){?>
         <div id="fb-root"></div>
