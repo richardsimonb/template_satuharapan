@@ -110,7 +110,6 @@
 					<?=$string_pages?>
 				</div>
 			</div>
-            <!-- <img src="<?=baseURL.'/'.PATH_template?>images/PlacedBanner635x150.jpg"/> -->
 		</div>
 		<?php
 		require "right.php";
