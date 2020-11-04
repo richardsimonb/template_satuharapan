@@ -12,34 +12,37 @@
 	</script>
 	
 	<meta name="author" content="PT. Satu Harapan Media | satuharapan.com" />
-    	<meta name="news_keywords" content="<?=$keyword?>" />
-	<meta name="description" content="satuharapan.com Berbagi Ruang Dalam Keragaman" />
-	<meta name="bitly-verification" content="fbdeb1a23940"/>
+    <meta name="news_keywords" content="<?=$keyword?>" />
+	<meta name="description" content="satuharapan.com | Berbagi Ruang Dalam Keragaman" />
 	<meta name="viewport" content="target-densitydpi=device-dpi" />
+
+	<meta property="og:title" content="<?=$title?> - Satu Harapan" />
+	<meta property="og:description" content="<?=$desc?>" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="<?=PATH_image.$og_img?>" />
+	<meta property="og:site_name" content="satuharapan.com" />
+	<meta property="og:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	<?php
 	if($keyword){
 	?>
         <meta name="keywords" content="<?=$keyword?>" />
-	    <meta property="og:title" content="<?=$title?> - Satu Harapan" />
-	    <meta property="og:description" content="<?=$desc?>" />
+	    
 	<?php
 	}
+
 	if($pages_require == "read-detail.php"){?>
 	    <link rel="canonical" href="<?=baseURL."/".$route?>"/>
 	<?php
 	}
 	?>
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="<?=PATH_image.$og_img?>" />
-	<meta property="og:site_name" content="satuharapan.com" />
-	<meta property="og:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
+
 	<meta name="rating" content="general" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@1harapan" />
 	<meta name="twitter:title" content="<?=$title?>" />
-    	<meta name="twitter:description" content="<?=$desc?>" />
+    <meta name="twitter:description" content="<?=$desc?>" />
 	<meta name="twitter:image" content="<?=PATH_image.$og_img?>" />
-    	<meta name="twitter:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
+    <meta name="twitter:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	
 	<title>Satu Harapan: <?=$title?> </title>
 	
@@ -145,7 +148,7 @@
 	
 	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/jquery-1.9.1.min.js?v=1"></script>
 	<script type="text/javascript">
-	  var browserName = navigator.appName;
+	  	var browserName = navigator.appName;
 		var browserVer = parseInt(navigator.appVersion);
 		var version = "";
 		var msie4 = (browserName == "Microsoft Internet Explorer" && browserVer >= 4);
@@ -209,13 +212,7 @@
 	
 	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/jquery.setup.js?v=1.1"></script>
 	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/jquery.carouFredSel-6.1.0-packed.js?v=1"></script>
-    <!--
-    [if gte IE 6]>
-    <style type="text/css">
-        #bann  { border: 1px solid #CCC; }
-    </style>
-    <![endif]
-    -->
+    
     <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
     <script type="text/javascript">
         twttr.conversion.trackPid('l5fxo');
@@ -269,16 +266,11 @@
     <?php
     }
     ?>
-	<a class="none" href="https://plus.google.com/114744379740699124576" rel="publisher">Google+</a>
 	<div id="loading-image">
-	    <!--<img src="images/loading2.gif" alt="Loading..." />-->
 	    <span>Loading...</span>
 	</div>
 	<div id="header">
 	    <div id="hd-bann">
-	    <!--<div class="img "><img src="http://www.satuharapan.com/uploads/tx_macinabanners/harkitnas_mei_2015.jpg"  width="1000" height="150"/></div>-->
-	    <!--<div class="img "><img src="http://www.satuharapan.com/uploads/tx_macinabanners/kartini_2016.jpg"  width="1000" height="150"/></div>-->
-	    <!--<div class="img "><img src="http://www.satuharapan.com/uploads/tx_macinabanners/SayaIndonesiaPancasila.jpg"  width="1000"/></div>-->
  	        <?php
     		if($banntop){?>
 			    <div id="bann-top">
@@ -292,17 +284,6 @@
 			<div id="logo-left"><a href="<?=baseURL?>"><img src="<?=baseURL.'/'.PATH_template?>images/logo2018.png" alt="Satuharapan.com" width="460" height="106"/></a></div>
 			<div id="logo-right">
 			    <div id="bann-top-life">
-			        <!--iklan adplus-->
-        			<!--<script type="text/javascript">
-				    var placementId = "5607033";
-				    var sizeId = "1"; 
-				    </script><script type="text/javascript" language="javascript" src="http://adr.adplus.co.id/script/adt.js"></script>
-				    <noscript>
-				    <a href="http://adsrv.adplus.co.id/adlink/3.0/1336/5607033/0/1/ADTECH;loc=300" target="_blank">
-				    <img src="http://adsrv.adplus.co.id/adserv/3.0/1336/5607033/0/1/ADTECH;loc=300" border="0" width="468" height="60">
-				    </a>
-				    </noscript>
-				    -->
 					<!-- Div 'class' replace with image banner/adv -->
 					<?=$bannlogo?>
 			    </div>
