@@ -58,56 +58,47 @@
         #bann  { border: 1px solid #CCC; }
     </style>
     <![endif]-->
-   <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
-<script type="text/javascript">
-   twttr.conversion.trackPid('l5fxo');</script>
-<noscript>
-<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l5fxo&p_id=Twitter" />
-<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5fxo&p_id=Twitter" /></noscript>
-<style type='text/css'>
-#toTop {opacity:0.8;padding:5px;position:fixed; bottom:2px; right:5px;cursor:pointer;display:none}
-</style>
-<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js' type='text/javascript'></script>
-<script type='text/javascript'>
-$(function() {
-$(window).scroll(function() {
-if($(this).scrollTop() != 0) {
-$('#toTop').fadeIn(); 
-} else {
-$('#toTop').fadeOut();
-}
-});
+    <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+	<script type="text/javascript">twttr.conversion.trackPid('l5fxo');</script>
+    <noscript>
+	<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l5fxo&p_id=Twitter" />
+	<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5fxo&p_id=Twitter" /></noscript>
+	<style type='text/css'>
+		#toTop {opacity:0.8;padding:5px;position:fixed; bottom:2px; right:5px;cursor:pointer;display:none}
+	</style>
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js' type='text/javascript'></script>
+	<script type='text/javascript'>
+		$(function() {
+		$(window).scroll(function() {
+		if($(this).scrollTop() != 0) {
+		$('#toTop').fadeIn(); 
+		} else {
+		$('#toTop').fadeOut();
+		}
+		});
 
-$('#toTop').click(function() {
-$('body,html').animate({scrollTop:0},10000);
-}); 
-});
-</script>
+		$('#toTop').click(function() {
+		$('body,html').animate({scrollTop:0},10000);
+		}); 
+		});
+	</script>
 </head>
 <body>
-<?php
-if($pages_require == "read-detail.php"){?>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  //js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  js.src = "https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v3.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<?php
-}
-?>
+	<?php if($pages_require == "read-detail.php"){?>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		//js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		js.src = "https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v3.0";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<?php } ?>
 	<a class="none" href="https://plus.google.com/114744379740699124576" rel="publisher">Google+</a>
-	 <!--<div id="loading-image">
-	 <img src="images/loading2.gif" alt="Loading..." />
-	  <span>Loading...</span>
-	</div>-->
 	<header>
-	<!--<div class="img "><img src="http://www.satuharapan.com/uploads/tx_macinabanners/harkitnas_mei_2015.jpg"/></div>-->
-         <!--<div class="img "><img src="http://www.satuharapan.com/uploads/tx_macinabanners/SayaIndonesiaPancasila.jpg.jpg"/></div>-->
+	
 	<?php
 		if($banntop){?>
 	   <div id="hd-bann">
