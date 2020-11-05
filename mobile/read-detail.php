@@ -1,6 +1,7 @@
 <?php
 require "header.php";
 ?>
+
 <section id="content">
     <!--- Content Top --->
     <section id="ct-top">
@@ -30,29 +31,23 @@ require "header.php";
 			</div>
 			<div class="isiberita"><?=$isi_process?></div>
 			<div class="share">
+
 				<div id="twshare" class="float-lt"><a href="https://twitter.com/share" class="twitter-share-button" data-url="<?=$short_url;?>" data-via="1harapan" data-counturl="<?=baseURL."/".$route?>">Tweet</a></div>
 
 				<div id="fbshare" class="float-lt">
 					<div class="fb-share-button" data-href="<?=$short_url;?>" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsatuharapan.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Bagikan</a></div>
 				</div>
-				<!-- <div id="gplusshare" class="float-lt">
-					<div class="g-plus" data-action="share" data-href="" data-annotation="bubble"></div>
-				</div> -->
+				
 				<div class="float-lt" id="whatsapp">
 				<!-- share ke Whatsapp by H tgl 1 Nov 2016 -->
 					<a href="whatsapp://send?text=<?=baseURL?><?=$_SERVER['REQUEST_URI']?>" 
 					data-action="share/whatsapp/share">
 					<img src="<?=baseURL.'/'.PATH_template?>mobile/images/WA-share.jpg" width="96px" height="24px" alt="Bagikan ke WhatsApp" /></a>
 				</div>
+
 				<div class="float-lt" id="line">
 					<div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="<?=baseURL?><?=$_SERVER['REQUEST_URI']?>" data-color="default" data-size="small" data-count="true" style="display: none;"></div>
 					<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
-				<!-- <span>
-				<script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
-				<script type="text/javascript">
-				new media_line_me.LineButton({"pc":false,"lang":"en","type":"a","text":"<?=baseURL?><?=$_SERVER['REQUEST_URI']?>","withUrl":true});
-				</script>
-				</span> -->
 				</div>
 				<div class="clear"></div>
 
@@ -74,15 +69,6 @@ require "header.php";
 			<div class="bann-mid1">
 		      <?php echo getBanner($full5,$banner_path);?> <!-- Banner zuri -->
 		    </div>
-			
-<!-- penambahan banner kategori SAINS by H tgl 6 Des 2016 -->
-	            <!-- <?php
-				if(strtoupper($getparentcategory) =="SAINS"){ ?>
-				<div class="share"><a href="http://www.sukawu.com" target="_blank"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/SUKAWU-BANNER-UNTUK-WEBSITE-SATU-HARAPAN.jpg" /></a>
-				</div>
-				<?php } else { ?>
-                                <div class="clear"></div>
-                                <?php } ?> -->
 
 			<?php
 			if(count($berita_terkait)>0){?>
@@ -121,10 +107,7 @@ require "header.php";
 		<?php
 		require "popular.php";
 		?>           
-		<?php
-	//	require "life.php";
-		?>
-		
+				
 		<div class="bann-mid1">
 			<?php
 			echo getBanner($half_3a,$banner_path,"left");
@@ -132,35 +115,43 @@ require "header.php";
 			?>
 			<div class="clear"></div>
 		</div>
+
 		<div class="bann-mid1">
-		<?php echo getBanner($full2,$banner_path); ?>
+			<?php echo getBanner($full2,$banner_path); ?>
 	    </div>
+		
 		<?php
 		require "opini.php";
 		?>
+
 		<div class="bann-mid1">
-		<?php
-		echo getBanner($mid_half2_kiri,$banner_path,"left");
-		echo getBanner($mid_half2_kanan,$banner_path,"right");
-		?>
-		<div class="clear"></div>
+			<?php
+			echo getBanner($mid_half2_kiri,$banner_path,"left");
+			echo getBanner($mid_half2_kanan,$banner_path,"right");
+			?>
+			<div class="clear"></div>
 		</div>
+
 		<div class="bann-mid1">
-		<?php echo getBanner($full3,$banner_path); ?>
+			<?php echo getBanner($full3,$banner_path); ?>
 	    </div>
+
 		<?php
 		require "flora.php";
 		?>
+
 		<div class="bann-mid1">
-		<?php
-		echo getBanner($mid_half3_kiri,$banner_path,"left");
-		echo getBanner($mid_half3_kanan,$banner_path,"right");
-		?>
-		<div class="clear"></div>
+			<?php
+			echo getBanner($mid_half3_kiri,$banner_path,"left");
+			echo getBanner($mid_half3_kanan,$banner_path,"right");
+			?>
+			<div class="clear"></div>
 		</div>
+
 		<div class="bann-mid1">
-		<?php echo getBanner($full4,$banner_path);?>
+			<?php echo getBanner($full4,$banner_path);?>
 		</div>
+
 		<!-- Posisi Awal Banner full5 -->
 		<div class="share">
 			<div style="display:none;"><a href="<?=baseURL.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>
@@ -168,6 +159,7 @@ require "header.php";
 		   		<img src="/fileadmin/banners/penaburtalentsday.jpeg"/>
 			</a>
 		</div>
+
 	</section>
 </section>
 <?php
