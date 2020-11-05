@@ -143,13 +143,12 @@ require "header.php";
 		   		<img src="/fileadmin/banners/penaburtalentsday.jpeg"/>
 			</a>
 		</div>
+
+		<!-- Facebook Page Plugin -->
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v8.0" nonce="GkpAw16c"></script>
 		
-		<div class="fb-page" 
-          data-href="https://www.facebook.com/satuharapan"
-          data-hide-cover="false"
-          data-show-facepile="false" 
-          data-show-posts="false">
-		</div>
+		<div class="fb-page" data-href="https://www.facebook.com/satuharapan" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/satuharapan" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/satuharapan">Satu Harapan</a></blockquote></div>
 
 	</section>
 </section>
