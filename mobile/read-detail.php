@@ -31,7 +31,10 @@ require "header.php";
 			<div class="isiberita"><?=$isi_process?></div>
 			<div class="share">
 				<div id="twshare" class="float-lt"><a href="https://twitter.com/share" class="twitter-share-button" data-url="<?=$short_url;?>" data-via="1harapan" data-counturl="<?=baseURL."/".$route?>">Tweet</a></div>
-				<div id="fbshare" class="float-lt"><div class="fb-share-button" data-href="<?=$short_url;?>" data-type="button_count"></div></div>
+
+				<div id="fbshare" class="float-lt">
+					<div class="fb-share-button" data-href="<?=$short_url;?>" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsatuharapan.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Bagikan</a></div>
+				</div>
 				<!-- <div id="gplusshare" class="float-lt">
 					<div class="g-plus" data-action="share" data-href="" data-annotation="bubble"></div>
 				</div> -->
