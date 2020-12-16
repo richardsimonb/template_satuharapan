@@ -138,10 +138,7 @@ require "header.php";
 
 		<!-- Tempat Banner full5 -->
 		<div class="share">
-            <div style="display:none;"><a href="<?=baseURL.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>
-			<a href="https://sites.google.com/bpkpenabur.or.id/penabur-talents-day">
-		   		<img src="/fileadmin/banners/penaburtalentsday.jpeg"/>
-			</a>
+            		<div><a href="<?=baseURL.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>			
 		</div>
 
 		<!-- Facebook Page Plugin -->
