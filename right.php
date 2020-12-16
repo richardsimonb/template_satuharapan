@@ -1,13 +1,5 @@
 <div id="ctop-right">
 	
-	<div class=iklan_ataslife_rd>
-		<a href="https://sites.google.com/bpkpenabur.or.id/penabur-talents-day">
-		   <img src="/fileadmin/banners/penaburtalentsday.jpeg" style="max-width:309px;"/>
-		</a>
-    	</div>
-	
-	<br/>
-	
 	<!-- Bagian Atas -->
 	<div class="blueTitle"><?=$title_blue?></div>
 	<div id="ctop-right-photo">
@@ -83,7 +75,7 @@
     </div>
 
 
-    <div class=iklan_ataslife_rd style="display:none;">
+    <div class=iklan_ataslife_rd>
         <a href="<?=baseURL.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
             <img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
         </a>
