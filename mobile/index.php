@@ -137,6 +137,15 @@ require "header.php";
 		
 		<?php
 		require "popular.php";
+		?>
+		
+		<div class="bann-mid1">
+	           <div>
+		     <img src="/uploads/tx_macinabanners/banner-vaksinasi.png"/>
+		   </div>	
+		</div>
+		
+		<?php
 		require "flora.php";
 		?>
 
