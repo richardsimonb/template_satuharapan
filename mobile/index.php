@@ -115,10 +115,11 @@ require "header.php";
 
 		<div class="bann-mid1">
 			<?php echo getBanner($full3,$banner_path);?>
-		</div>
-		<div>
+	           <div>
 		     <img src="/fileadmin/banners/turut-berdukacita.png"/>
+		   </div>	
 		</div>
+		
 
 		<?php require "opini.php"; ?>
 
