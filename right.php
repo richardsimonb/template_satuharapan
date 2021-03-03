@@ -74,8 +74,10 @@
 	
     </div>
 
-    <div class=iklan_ataslife_rd>	
-	<img src="/fileadmin/banners/harlah-nu-98.png" style="max-width:309px;"/>	
+    <div class=iklan_ataslife_rd>
+      <a href="<?=baseURL.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
+          <img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
+      </a>
     </div>
     
     <!-- <div class=iklan_ataslife_rd><a href="http://www.satuharapan.com/uploads/tx_macinabanners/AdLarryBrook.jpg" target="_blank"><img src="http://www.satuharapan.com/uploads/tx_macinabanners/LarryBrook.jpg" /></a>
@@ -181,12 +183,6 @@
   <?php
 //  require "liferight.php";
   ?>
-	
-  <div class=iklan_ataslife_rd>
-      <a href="<?=baseURL.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
-          <img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
-      </a>
-  </div>
 	
   <!-- <div class=iklan_ataslife_rd>
         <a href="#" target="_blank">
