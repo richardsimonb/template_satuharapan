@@ -115,9 +115,6 @@ require "header.php";
 
 		<div class="bann-mid1">
 			<?php echo getBanner($full3,$banner_path);?>
-	           <div>
-		     <img src="/fileadmin/banners/harlah-nu-98.png"/>
-		   </div>	
 		</div>
 		
 
