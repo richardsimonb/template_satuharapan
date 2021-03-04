@@ -22,6 +22,7 @@
 	<meta property="og:image" content="<?=PATH_image.$og_img?>" />
 	<meta property="og:site_name" content="satuharapan.com" />
 	<meta property="og:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
+
 	<?php
 	if($keyword){
 	?>
@@ -29,8 +30,11 @@
 	    
 	<?php
 	}
+	?>
 
-	if($pages_require == "read-detail.php"){?>
+	<?php
+	if($pages_require == "read-detail.php"){
+	?>
 	    <link rel="canonical" href="<?=baseURL."/".$route?>"/>
 	<?php
 	}
@@ -44,7 +48,7 @@
 	<meta name="twitter:image" content="<?=PATH_image.$og_img?>" />
     <meta name="twitter:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	
-	<title>Satu Harapan: <?=$title?> </title>
+	<title><?=$title?> - Satu Harapan</title>
 	
 	<!--<base href="<?=baseURL?>">-->
 	<meta name="bitly-verification" content="fbdeb1a23940"/>
