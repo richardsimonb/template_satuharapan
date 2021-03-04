@@ -14,7 +14,7 @@
 	<meta name="author" content="PT. Satu Harapan Media | satuharapan.com" />
     <meta name="news_keywords" content="<?=$keyword?>" />
 	<meta name="description" content="satuharapan.com | Berbagi Ruang Dalam Keragaman" />
-	<meta name="viewport" content="target-densitydpi=device-dpi" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta property="og:title" content="<?=$title?> - Satu Harapan" />
 	<meta property="og:description" content="<?=$desc?>" />
@@ -54,7 +54,6 @@
 	<meta name="bitly-verification" content="fbdeb1a23940"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/reset.css" />
-
 	<!--<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/text.css" />-->
 
 	<style>
