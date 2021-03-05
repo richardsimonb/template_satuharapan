@@ -36,7 +36,9 @@
 	<meta property="og:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	<meta name="language" content="Indonesia" />
 	<meta name="rating" content="general" />
-	<title>Satu Harapan: <?=$title?></title>
+
+	<title><?=$title?> - Satu Harapan</title>
+
 	<!--<base href="<?=baseURL?>">-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="shortcut icon" href="<?=baseURL.'/'.PATH_template?>mobile/images/favicon.ico" />
