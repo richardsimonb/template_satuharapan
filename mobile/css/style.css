@@ -212,3 +212,7 @@ and (max-device-width : 320px) {
 	.listheadline .preview,.listlatest .preview{display:none !important;}
 }
 #toTop {opacity:0.8;padding:5px;position:fixed; bottom:2px; right:15px;cursor:pointer;display:none}
+
+.uppercaseLetter{
+	text-transform: uppercase;
+}

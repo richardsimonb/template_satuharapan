@@ -1,5 +1,5 @@
 <div id="kabarterbaru">
-	<div class="blueTitle"><?=$title?></div>
+	<div class="blueTitle uppercaseLetter"><?=$title?></div>
 	<div class="listlatest">
 	<?php
 		foreach($contentnews as $listlatest){
