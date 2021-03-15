@@ -76,7 +76,7 @@
     <img src="http://www.satuharapan.com/uploads/hutbpk.jpg"> 
     <img src="http://www.satuharapan.com/uploads/yamuger2015.jpg"> -->
     <?php
-    echo getBanner($full1,$banner_path);
+    echo getBanner($full1,$banner_path,"bannerMid");
     ?>
     <div class="clear"></div>
 </div>
@@ -116,7 +116,7 @@
 			<div class="clear"></div>
 			</div>
 			<div class="bann-mid1" align="center">
-				<?php echo getBanner($full2,$banner_path); ?>
+				<?php echo getBanner($full2,$banner_path,"bannerMid"); ?>
                              
                              <!--  ad tags Size: 728x90 ZoneId:1042528-->
                              <!--  pindah ad tgl 31 Okt 2016 by H -->
