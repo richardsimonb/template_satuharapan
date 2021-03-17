@@ -146,7 +146,7 @@
 		}
 	</style>
 
-	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/style2.css" />
+	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/style2.css?version=1.2" />
 	<link rel="shortcut icon" href="<?=baseURL.'/'.PATH_template?>images/favicon.ico" />
 	
 	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/jquery-1.9.1.min.js?v=1"></script>
