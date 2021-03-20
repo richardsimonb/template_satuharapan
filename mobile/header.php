@@ -11,7 +11,7 @@
 	  gtag('config', 'UA-78633708-1');
 	</script>
 
-	<link rel="stylesheet" type="text/css" href="<?=baseURL.'/'.PATH_template?>mobile/css/style.css?version=2" />
+	<link rel="stylesheet" type="text/css" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/css/style.css?version=2" />
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta name="author" content="PT. Satu Harapan Media, satuharapan.com" />
 	<meta name="description" content="satuharapan.com Berbagi Ruang Dalam Keragaman" />
@@ -26,22 +26,22 @@
 	<?php
 	}
 	if($pages_require == "read-detail.php"){?>
-	<link rel="canonical" href="<?=baseURL."/".$route?>"/>
+	<link rel="canonical" href="<?='https://www.satuharapan.com'."/".$route?>"/>
 	<?php
 	}
 	?>
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="<?=PATH_image.$og_img?>" />
 	<meta property="og:site_name" content="satuharapan.com" />
-	<meta property="og:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
+	<meta property="og:url" content="https://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	<meta name="language" content="Indonesia" />
 	<meta name="rating" content="general" />
 
 	<title><?=$title?> - Satu Harapan</title>
 
-	<!--<base href="<?=baseURL?>">-->
+	<!--<base href="<?='https://www.satuharapan.com'?>">-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<link rel="shortcut icon" href="<?=baseURL.'/'.PATH_template?>mobile/images/favicon.ico" />
+	<link rel="shortcut icon" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/favicon.ico" />
 	
 	<script type="text/javascript">
 	var browserName = navigator.appName;
@@ -54,7 +54,7 @@
 			if (msie4)	{theObject.blur();}
 		}
 	</script>
-	<!--<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/date.js"></script>-->
+	<!--<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/date.js"></script>-->
 	<!--[if gte IE 6]>
     <style type="text/css">
         #bann  { border: 1px solid #CCC; }
@@ -68,7 +68,7 @@
 	<style type='text/css'>
 		#toTop {opacity:0.8;padding:5px;position:fixed; bottom:2px; right:5px;cursor:pointer;display:none}
 	</style>
-	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js' type='text/javascript'></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js' type='text/javascript'></script>
 	<script type='text/javascript'>
 		$(function() {
 		$(window).scroll(function() {
@@ -110,9 +110,9 @@
 		}
 		?>
 		<div id="hd-logo">
-			<div class="float-lt"><a href="<?=baseURL?>"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/logo2018mobile.png" /></a></div>
+			<div class="float-lt"><a href="<?='https://www.satuharapan.com'?>"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/logo2018mobile.png" /></a></div>
 			<div class="float-rt">
-				<a href="<?=baseURL?>/switch/desktop">DESKTOP VERSION <img src="<?=baseURL.'/'.PATH_template?>images/desktop_sh.png" width="26px" /></a>
+				<a href="<?='https://www.satuharapan.com'?>/switch/desktop">DESKTOP VERSION <img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/desktop_sh.png" width="26px" /></a>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -122,7 +122,7 @@
 			<div class="clear"></div>
 		</div>
 		<nav id="hd-hbar">
-			<ul><li class="first"><a href="<?=baseURL?>"><img src="<?=baseURL.'/'.PATH_template?>images/home.png" width="21" height="17"/></a></li>
+			<ul><li class="first"><a href="<?='https://www.satuharapan.com'?>"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/home.png" width="21" height="17"/></a></li>
 				<?=$topmenu?>
 			</ul>
 		</nav>
@@ -137,8 +137,8 @@
 			</div>
 			<div class="float-rt">
 			  <div id="src">
-					<form method="get" name="search_form" action="<?=baseURL?>/search">
-					  <div class="btnarea"><a href="javascript:void(0)" onclick="submit()"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/search_mobile.jpg" /></a></div>
+					<form method="get" name="search_form" action="<?='https://www.satuharapan.com'?>/search">
+					  <div class="btnarea"><a href="javascript:void(0)" onclick="submit()"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/search_mobile.jpg" /></a></div>
 					  <input type="text" name="search" class="frm" placeholder = "Cari artikel..." />
 					  <div class="clear"></div>
 					</form>
