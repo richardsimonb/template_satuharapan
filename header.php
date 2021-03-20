@@ -21,7 +21,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="<?=PATH_image.$og_img?>" />
 	<meta property="og:site_name" content="satuharapan.com" />
-	<meta property="og:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
+	<meta property="og:url" content="https://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 
 	<?php
 	if($keyword){
@@ -46,7 +46,7 @@
 	<meta name="twitter:title" content="<?=$title?>" />
     <meta name="twitter:description" content="<?=$desc?>" />
 	<meta name="twitter:image" content="<?=PATH_image.$og_img?>" />
-    <meta name="twitter:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
+    <meta name="twitter:url" content="https://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	
 	<title><?=$title?> - Satu Harapan</title>
 	

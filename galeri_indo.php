@@ -3,7 +3,7 @@
 		</div> -->
 		
 		<div class="blueTitle">
-		<span class="left">GALERI FOTO INDONESIA</span> <span class="otherlatest2link right"> <a href="http://www.satuharapan.com/foto/galeri-foto-indonesia"> TANGGAL sebelumnya >></a> </span>
+		<span class="left">GALERI FOTO INDONESIA</span> <span class="otherlatest2link right"> <a href="https://www.satuharapan.com/foto/galeri-foto-indonesia"> TANGGAL sebelumnya >></a> </span>
 		<div class="clear"></div>
 	</div>
             

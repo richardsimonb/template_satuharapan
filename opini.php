@@ -45,7 +45,7 @@ foreach($listnewsopini as $latestnews)
 ?>
     <div class="<?=$class?>">
     	<div class="blueTitle">
-		    <span class="left"><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?=baseURL."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
+		    <span class="left"><a href="<?='https://www.satuharapan.com'?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?='https://www.satuharapan.com'."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
 		    <div class="clear"></div>
 	    </div>
 		<div class="latesttype2case">
@@ -57,12 +57,12 @@ foreach($listnewsopini as $latestnews)
 	    		<div class="listlatesttype2 left">
 				<?php
 				if($image[0]!=""){?>
-		    		<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
+		    		<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
     			<?php
 				}
 				?>
 		    	<div class="titlelatest left">
-			    	<h4><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
+			    	<h4><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
 		    	</div>
 		    	<div class="clear"></div>
 	    		</div>
@@ -87,7 +87,7 @@ foreach($listnewsparenting as $latestnews)
 ?>
     <div class="<?=$class?>">
     	<div class="blueTitle">
-		    <span class="left"><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?=baseURL."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
+		    <span class="left"><a href="<?='https://www.satuharapan.com'?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?='https://www.satuharapan.com'."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
 		    <div class="clear"></div>
 	    </div>
 		<div class="latesttype2case">
@@ -99,12 +99,12 @@ foreach($listnewsparenting as $latestnews)
 	    		<div class="listlatesttype2 left">
 				<?php
 				if($image[0]!=""){?>
-		    		<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
+		    		<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
     			<?php
 				}
 				?>
 		    	<div class="titlelatest left">
-			    	<h4><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
+			    	<h4><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
 		    	</div>
 		    	<div class="clear"></div>
 	    		</div>
@@ -129,7 +129,7 @@ foreach($listnewsparenting as $latestnews)
 <!--
 <div class="<?=$class?>">
 	<div class="blueTitle">
-		<span class="left"><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?=baseURL."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
+		<span class="left"><a href="<?='https://www.satuharapan.com'?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?='https://www.satuharapan.com'."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
 		<div class="clear"></div>
 	</div>
 	<div class="latesttype2case">
@@ -143,12 +143,12 @@ foreach($listnewsparenting as $latestnews)
 		<div class="listlatesttype2 left">
 			<?php
 //if($image[0]!=""){?>
-			<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
+			<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
 			<?php
 //			}
 			?>
 			<div class="titlelatest left">
-				 <h4><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
+				 <h4><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -173,7 +173,7 @@ foreach($listnewsparenting as $latestnews)
 ?>
 <!--	<div class="latesttype3">
 		<div class="blueTitle">
-			<span class="left"><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?=baseURL."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
+			<span class="left"><a href="<?='https://www.satuharapan.com'?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?='https://www.satuharapan.com'."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
 			<div class="clear"></div>
 		</div>
 		<div class="latesttype2case">
@@ -194,17 +194,17 @@ foreach($listnewsparenting as $latestnews)
 <!--			<div class="listlatesttype3 <?=$class?>"> -->
 				<?php
 //				if($image[0]!=""){?>
-<!--				<span class="img-thumb"><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."222x148_".$image[0]?>" width="222" height="148" alt="<?=$list['realtitle']?>"/></a></span>
+<!--				<span class="img-thumb"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."222x148_".$image[0]?>" width="222" height="148" alt="<?=$list['realtitle']?>"/></a></span>
 -->
 				<?php
 //				}
 				?>
 <!--				<div class="titlelatest">
-					 <h4><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
+					 <h4><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
 -->
 					 <!-- edit by:ben, Menghilangkan cuplikan artikel -->
 					 <!-- <?=$list['preview']?>
-					 <a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><span class="more"></span></a>
+					 <a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><span class="more"></span></a>
 					 -->
 					 
 <!--				</div>

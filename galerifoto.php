@@ -1,4 +1,4 @@
-<a href="http://www.satuharapan.com/foto/galeri-foto-indonesia"><div class="headbaru">
+<a href="https://www.satuharapan.com/foto/galeri-foto-indonesia"><div class="headbaru">
                GALERI FOTO INDONESIA 
 </div></a>
 
@@ -31,7 +31,7 @@
 <div class="daftarbaru">
 
     <div class="isidaftarbaru">
-        <a href="http://www.satuharapan.com/foto/galeri-foto-indonesia">
+        <a href="https://www.satuharapan.com/foto/galeri-foto-indonesia">
             <div class="fotodaftarbaru">            	                	    
             	   <!-- <img src= "../../../uploads/cache/<?php echo "309x206_".$image_ind[0]?>"> -->
             	    <img src= "../../../uploads/pics/<?php echo $image_ind[0]?>">
@@ -40,7 +40,7 @@
         </a> 
         <div class="juduldaftarbaru">
             <div class="linkkata">
-                <a href="http://www.satuharapan.com/foto/galeri-foto-indonesia">
+                <a href="https://www.satuharapan.com/foto/galeri-foto-indonesia">
                    <?php echo $fot['title']?>  
                 </a>
             </div>
@@ -51,7 +51,7 @@
  <?php } ?>  
   
  
-<a href="http://www.satuharapan.com/foto/galeri-foto-dunia"> <div class="headbaru">
+<a href="https://www.satuharapan.com/foto/galeri-foto-dunia"> <div class="headbaru">
                GALERI FOTO DUNIA 
 </div> </a>
 
@@ -76,15 +76,15 @@
 <div class="daftarbaru">
 
     <div class="isidaftarbaru">
-        <a href="http://www.satuharapan.com/foto/galeri-foto-dunia">
+        <a href="https://www.satuharapan.com/foto/galeri-foto-dunia">
             <div class="fotodaftarbaru">                   
                 <img src= "../../../uploads/pics/<?php echo $image_dun[0]?>">
-                <!--<img src= "http://www.satuharapan.com/uploads/cache/309x206_news_16_1421233591.jpg"> -->                      
+                <!--<img src= "https://www.satuharapan.com/uploads/cache/309x206_news_16_1421233591.jpg"> -->                      
             </div>
         </a>
         <div class="juduldaftarbaru">
             <div class="linkkata">
-                <a href="http://www.satuharapan.com/foto/galeri-foto-dunia">
+                <a href="https://www.satuharapan.com/foto/galeri-foto-dunia">
                     <?php echo $fotdunia['title']?>
                 </a>
             </div>

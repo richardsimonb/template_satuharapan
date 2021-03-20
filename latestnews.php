@@ -58,7 +58,7 @@
         ?>
 		
 		<div class="latest-news <?=$class?>">
-			<div class="blueTitle"><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></div>
+			<div class="blueTitle"><a href="<?='https://www.satuharapan.com'?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></div>
 			<div class="listlatest">
 				<?php
 				$counter = 0;
@@ -72,13 +72,13 @@
 							<?php
 							$class="titleonly";
 							if($image[0]!=""){?>
-							<span class="img-thumb"><a title="<?=$listnewsnya['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$listnewsnya['value_alias']?>"><img src="<?=PATH_image_cache."225x150_".$image[0]?>" width="225" height="150" alt="<?=$listnewsnya['realtitle']?>"/></a></span>
+							<span class="img-thumb"><a title="<?=$listnewsnya['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listnewsnya['value_alias']?>"><img src="<?=PATH_image_cache."225x150_".$image[0]?>" width="225" height="150" alt="<?=$listnewsnya['realtitle']?>"/></a></span>
 							<?php
 							$class="titlelatest";
 							}
 							?>
 							<div class="<?=$class?>">
-								 <h3><a title="<?=$listnewsnya['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$listnewsnya['value_alias']?>"><?=$listnewsnya['title']?></a></h3>
+								 <h3><a title="<?=$listnewsnya['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listnewsnya['value_alias']?>"><?=$listnewsnya['title']?></a></h3>
 							</div>
 							<div class="clear"></div>
 					   </div>
@@ -86,14 +86,14 @@
 					}
 					else
 					{
-						$string .= '<li><a title="'.$listnewsnya['realtitle'].'" href="'.baseURL.'/read-detail/read/'.$listnewsnya['value_alias'].'">'.$listnewsnya['title'].'</a></li>';
+						$string .= '<li><a title="'.$listnewsnya['realtitle'].'" href="'.'https://www.satuharapan.com'.'/read-detail/read/'.$listnewsnya['value_alias'].'">'.$listnewsnya['title'].'</a></li>';
 					}
 					$counter++;
 				}
 				echo "<ul>".$string."</ul>";
 				?>
 			</div>
-			<a href="<?=baseURL."/".$latestnews['menuurl']?>" class="otherlatestlink">Kabar <?=ucwords(strtolower($latestnews['nama']))?> lainnya >></a>
+			<a href="<?='https://www.satuharapan.com'."/".$latestnews['menuurl']?>" class="otherlatestlink">Kabar <?=ucwords(strtolower($latestnews['nama']))?> lainnya >></a>
 		</div>
     <?php
 		$countercat++;

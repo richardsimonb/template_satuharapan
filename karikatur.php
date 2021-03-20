@@ -1,4 +1,4 @@
-<a href="http://www.satuharapan.com/foto/karikatur"><div class="headbaru">
+<a href="https://www.satuharapan.com/foto/karikatur"><div class="headbaru">
                KARIKATUR
 </div></a>
 
@@ -20,7 +20,7 @@
             <div class="daftarbaru-kar">
 
 					<div class="isidaftarbaru-kar">
-						<a href="http://www.satuharapan.com/foto/karikatur">
+						<a href="https://www.satuharapan.com/foto/karikatur">
 							<div class="fotodaftarbaru-kar">						
 								<img src="../../../uploads/pics/<?php echo $image_kar[0]?>" width="309" height="206" >						
 							</div>
@@ -28,7 +28,7 @@
 						
 						<div class="juduldaftarbaru-kar">
 							<div class="linkkata">
-								<a href="http://www.satuharapan.com/foto/karikatur">
+								<a href="https://www.satuharapan.com/foto/karikatur">
 									<?php echo $kar['title']?>  
 								</a>						
 							</div>

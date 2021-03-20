@@ -1,4 +1,4 @@
-<form method="get" action="<?=baseURL?>/indeks">
+<form method="get" action="<?='https://www.satuharapan.com'?>/indeks">
 	<span class="deskripsi">Lihat Indeks Tanggal :</span> 
 	<span id="tanggal"><?=$contentnews_all['optiontgl']?></span>
     <input type="submit" value="Lihat Indeks" />
@@ -13,15 +13,15 @@
 			<?php
 			$class="titleonly";
 			if($image[0]!=""){?>
-			<span class="img-thumb"><a title="<?=$listlatest['title']?>" href="<?=baseURL?>/read-detail/read/<?=$listlatest['url']?>"><img src="<?=PATH_image_cache."309x206_".$image[0]?>" width="309" height="206" alt="<?=$listlatest['title']?>"/></a></span>
+			<span class="img-thumb"><a title="<?=$listlatest['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['url']?>"><img src="<?=PATH_image_cache."309x206_".$image[0]?>" width="309" height="206" alt="<?=$listlatest['title']?>"/></a></span>
 			<?php
 				$class="titlelatest";
 			}
 			?>
 			<div class="<?=$class?>">
-				 <h1><a title="<?=$listlatest['title']?>" href="<?=baseURL?>/read-detail/read/<?=$listlatest['url']?>"><?=$listlatest['title']?></a></h1>
+				 <h1><a title="<?=$listlatest['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['url']?>"><?=$listlatest['title']?></a></h1>
 				<?=$listlatest['prev']?>
-				<a title="<?=$listlatest['title']?>" href="<?=baseURL?>/read-detail/read/<?=$listlatest['url']?>"><span class="more"></span></a>
+				<a title="<?=$listlatest['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['url']?>"><span class="more"></span></a>
 			</div>
 			<div class="clear"></div>
 	   </div>

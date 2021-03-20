@@ -41,13 +41,13 @@
 				<?php
 				$class="titlepopulernophoto";
 				if($image[0]!=""){?>
-				<span class="img-thumb"><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."202x135_".$image[0]?>" width="202" height="135" alt="<?=$list['realtitle']?>"/></a></span>
+				<span class="img-thumb"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."202x135_".$image[0]?>" width="202" height="135" alt="<?=$list['realtitle']?>"/></a></span>
 				<?php
 					$class="titlepopuler";
 				}
 				?>
 				<div class="<?=$class?>">
-					 <h5><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h5>
+					 <h5><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h5>
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -63,7 +63,7 @@ foreach($flora as $latestnews)
 ?>
 	<div class="flora right">
 		<div class="judulflora">
-			<span class="left"><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?=baseURL."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
+			<span class="left"><a href="<?='https://www.satuharapan.com'?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span><span class="otherlatest2link right"><a href="<?='https://www.satuharapan.com'."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
 			<div class="clear"></div>
 		</div>
 		<?php
@@ -75,17 +75,17 @@ foreach($flora as $latestnews)
 				<?php
 				$class="bagiankirinophoto";
 				if($image[0]!=""){?>
-				<div class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."226x150_".$image[0]?>" width="226" height="150" alt="<?=$list['realtitle']?>"/></a></div>
+				<div class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."226x150_".$image[0]?>" width="226" height="150" alt="<?=$list['realtitle']?>"/></a></div>
 				<?php
 					$class="bagiankiri";
 				}
 				?>
 				<div class="<?=$class?> left">
 					<div class="titleflora">
-						 <h6><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h6>
+						 <h6><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h6>
 					</div>
 					<span class="preview"><?=$list['preview']?>
-					 <a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><span class="more"></span></a>
+					 <a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><span class="more"></span></a>
 					 </span>
 				</div>
 				<div class="clear"></div>
