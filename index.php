@@ -32,7 +32,7 @@
 								if($image[0]!=""){
 								?>
     								<div class="imghead">
-									    <a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>">
+									    <a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>">
 										    <img src="<?=PATH_image_cache."469x312_".$image[0]?>" width="469" height="312" alt="<?=$list['realtitle']?>">
 									    </a>
 								    </div>
@@ -42,10 +42,10 @@
 							    ?>
 							    <div class="<?=$class?>">
 								    <h1>
-    								 	<a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a>
+    								 	<a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a>
 								    </h1>
 								    <?=$list['preview']?>
-								    <a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>">
+								    <a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>">
 									    <span class="more"></span>
 								    </a>
 							    </div>
@@ -84,7 +84,7 @@
 							if($image[0]!=""){
 							?>
 								<span class="img-thumb">
-									<a title="<?=$listlatest['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>">
+									<a title="<?=$listlatest['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['value_alias']?>">
 										<img src="<?=PATH_image_cache."309x206_".$image[0]?>" width="309" height="206" alt="<?=$listlatest['realtitle']?>"/>
 									</a>
 								</span>
@@ -94,10 +94,10 @@
 						    ?>
 							<div class="<?=$class?>">
 								<h1>
-								    <a title="<?=$listlatest['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>"><?=$listlatest['title']?></a>
+								    <a title="<?=$listlatest['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['value_alias']?>"><?=$listlatest['title']?></a>
 								</h1>
 								<?=$listlatest['preview']?>
-								<a title="<?=$listlatest['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>">
+								<a title="<?=$listlatest['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['value_alias']?>">
 								    <span class="more"></span>
 								</a>
 							</div>
