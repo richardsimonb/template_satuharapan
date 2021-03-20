@@ -15,15 +15,15 @@ require "header.php";
 							<?php
 							$class="titleonly";
 							if($listlatest['image']!=""){?>
-							<span class="img-thumb"><a title="<?=$listlatest['title']?>" href="<?=baseURL?>/read-detail/read/<?=$listlatest['url']?>"><img src="<?=PATH_image_cache.$listlatest['image']?>" width="309" height="206" alt="<?=$listlatest['title']?>"/></a></span>
+							<span class="img-thumb"><a title="<?=$listlatest['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['url']?>"><img src="<?=PATH_image_cache.$listlatest['image']?>" width="309" height="206" alt="<?=$listlatest['title']?>"/></a></span>
 							<?php
 								$class="titlelatest";
 							}
 							?>
 							<div class="<?=$class?>">
-								 <h1><a title="<?=$listlatest['title']?>" href="<?=baseURL?>/read-detail/read/<?=$listlatest['url']?>"><?=$listlatest['title']?></a></h1>
+								 <h1><a title="<?=$listlatest['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['url']?>"><?=$listlatest['title']?></a></h1>
 								<?=$listlatest['prev']?>
-								<a title="<?=$listlatest['title']?>" href="<?=baseURL?>/read-detail/read/<?=$listlatest['url']?>"><span class="more"></span></a>
+								<a title="<?=$listlatest['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['url']?>"><span class="more"></span></a>
 							</div>
 							<div class="clear"></div>
 					   </div>
