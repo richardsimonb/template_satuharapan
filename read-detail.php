@@ -44,8 +44,8 @@ require "header.php";
 					</div>
 					<div class="clear"></div>
 					<div id="positions"></div>
-					<div id="prev"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
-					<div id="next"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
+					<div id="prev"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
+					<div id="next"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
 				</div>
 				<?php
 		
@@ -78,7 +78,7 @@ require "header.php";
 
   <div class="share">
     <div id="twshare" class="left">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-url="<?=$short_url;?>"  data-via="1harapan" data-counturl="<?=baseURL."/".$route?>">Tweet</a>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="<?=$short_url;?>"  data-via="1harapan" data-counturl="<?='https://www.satuharapan.com'."/".$route?>">Tweet</a>
     </div>
     <div id="fbshare" class="left"><div class="fb-share-button" data-href="<?=$short_url;?>" data-type="button_count"></div></div>
     <!-- Place this tag where you want the share button to render. -->
@@ -87,15 +87,15 @@ require "header.php";
     </div> -->
     <div id="whatsappshare" class="left">
       <!-- share ke Whatsapp by H tgl 1 Nov 2016 -->
-      <a href="whatsapp://send?text=<?=baseURL?><?=$_SERVER['REQUEST_URI']?>" data-action="share/whatsapp/share">
-      <img src="<?=baseURL.'/'.PATH_template?>images/WA-share.jpg" width="80px" height="20px" alt="Bagikan ke WhatsApp" /></a>
+      <a href="whatsapp://send?text=<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>" data-action="share/whatsapp/share">
+      <img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/WA-share.jpg" width="80px" height="20px" alt="Bagikan ke WhatsApp" /></a>
     </div>
     <div id="lineshare" class="left">
-      <div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="<?=baseURL?><?=$_SERVER['REQUEST_URI']?>" data-color="default" data-size="small" data-count="true" style="display: none;"></div>
+      <div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>" data-color="default" data-size="small" data-count="true" style="display: none;"></div>
       <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
       <!-- <script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
 	   <script type="text/javascript">
-	      new media_line_me.LineButton({"pc":false,"lang":"en","type":"a","text":"<?=baseURL?><?=$_SERVER['REQUEST_URI']?>","withUrl":true});
+	      new media_line_me.LineButton({"pc":false,"lang":"en","type":"a","text":"<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>","withUrl":true});
 	   </script> -->
     </div>
     <div class="clear"></div>
@@ -121,13 +121,13 @@ require "header.php";
 <!-- penambahan banner image Sukawu by H tgl 6 Des 2016 -->
 			<!-- <?php
 				if(strtoupper($getparentcategory) =="SAINS"){ ?>
-				<div class="share"><a href="http://www.sukawu.com" target="_blank"><img src="<?=baseURL.'/'.PATH_template?>images/SUKAWU-BANNER-UNTUK-WEBSITE-SATU-HARAPAN.jpg" alt="Cari Kursus, Tempat Pelatihan Berkualitas & Promo Secara Online, Cepat dan Mudah di Sini!" /></a>
+				<div class="share"><a href="http://www.sukawu.com" target="_blank"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/SUKAWU-BANNER-UNTUK-WEBSITE-SATU-HARAPAN.jpg" alt="Cari Kursus, Tempat Pelatihan Berkualitas & Promo Secara Online, Cepat dan Mudah di Sini!" /></a>
 				</div>
 				<?php } else { ?> -->
 			<!--iklan googlead -->
 			
                         <div class="share">
-<!--				<img src="<?=baseURL.'/'.PATH_template?>images/PlacedBanner635x150.jpg"/> -->
+<!--				<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/PlacedBanner635x150.jpg"/> -->
 			</div>
 				<?php } ?>
 
@@ -163,9 +163,9 @@ require "header.php";
 					}
 				?>
 					<div class="listterkait <?=$class?>">
-						<span class="img-thumb"><a title="<?=$terkait['title']?>" href="<?=baseURL?>/read-detail/read/<?=$terkait['url']?>"><img src="<?=PATH_image.$terkait['image']?>"/></a></span>
+						<span class="img-thumb"><a title="<?=$terkait['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$terkait['url']?>"><img src="<?=PATH_image.$terkait['image']?>"/></a></span>
 						<div class="titleterkait">
-							 <h4><a title="<?=$terkait['title']?>" href="<?=baseURL?>/read-detail/read/<?=$terkait['url']?>"><?=$terkait['title']?></a></h4>
+							 <h4><a title="<?=$terkait['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$terkait['url']?>"><?=$terkait['title']?></a></h4>
 						</div>
 					</div>
 				<?php
@@ -206,9 +206,9 @@ require "header.php";
 					}
 				?>
 					<div class="listterkait <?=$class?>">
-						<span class="img-thumb"><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."202x135_".$image[0]?>" width="202" height="135" alt="<?=$list['realtitle']?>"/></a></span>
+						<span class="img-thumb"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."202x135_".$image[0]?>" width="202" height="135" alt="<?=$list['realtitle']?>"/></a></span>
 						<div class="titleterkait">
-							 <h4><a title="<?=$list['realtitle']?>" href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
+							 <h4><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
 						</div>
 					</div>
 				<?php
