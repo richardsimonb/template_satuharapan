@@ -35,7 +35,7 @@
 	<?php
 	if($pages_require == "read-detail.php"){
 	?>
-	    <link rel="canonical" href="<?=baseURL."/".$route?>"/>
+	    <link rel="canonical" href="<?='https://www.satuharapan.com'."/".$route?>"/>
 	<?php
 	}
 	?>
@@ -50,11 +50,11 @@
 	
 	<title><?=$title?> - Satu Harapan</title>
 	
-	<!--<base href="<?=baseURL?>">-->
+	<!--<base href="<?='https://www.satuharapan.com'?>">-->
 	<meta name="bitly-verification" content="fbdeb1a23940"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/reset.css" />
-	<!--<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/text.css" />-->
+	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/reset.css" />
+	<!--<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/text.css" />-->
 
 	<style>
 		/*
@@ -146,10 +146,10 @@
 		}
 	</style>
 
-	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/style2.css?version=1.2" />
-	<link rel="shortcut icon" href="<?=baseURL.'/'.PATH_template?>images/favicon.ico" />
+	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/style2.css?version=1.2" />
+	<link rel="shortcut icon" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/favicon.ico" />
 	
-	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/jquery-1.9.1.min.js?v=1"></script>
+	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/jquery-1.9.1.min.js?v=1"></script>
 	<script type="text/javascript">
 	  	var browserName = navigator.appName;
 		var browserVer = parseInt(navigator.appVersion);
@@ -209,12 +209,12 @@
     </script>
 	
 	<!--
-	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/date_time.js"></script>
-	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/date.js"></script>
+	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/date_time.js"></script>
+	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/date.js"></script>
 	-->
 	
-	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/jquery.setup.js?v=1.1"></script>
-	<script type="text/javascript" src="<?=baseURL.'/'.PATH_template?>js/jquery.carouFredSel-6.1.0-packed.js?v=1"></script>
+	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/jquery.setup.js?v=1.1"></script>
+	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/jquery.carouFredSel-6.1.0-packed.js?v=1"></script>
     
     <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -225,7 +225,7 @@
     <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5fxo&p_id=Twitter" /></noscript>
 
     <!--Galeri foto
-        <link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/bootstrap.min.css" />
+        <link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/bootstrap.min.css" />
     -->
     <style type='text/css'>
         #toTop {opacity:0.8;padding:5px;position:fixed; bottom:2px; right:5px;cursor:pointer;display:none}
@@ -284,7 +284,7 @@
 		    ?>
 		</div>
 		<div id="hd-logo">
-			<div id="logo-left"><a href="<?=baseURL?>"><img src="<?=baseURL.'/'.PATH_template?>images/logo2018.png" alt="Satuharapan.com" width="460" height="106"/></a></div>
+			<div id="logo-left"><a href="<?='https://www.satuharapan.com'?>"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/logo2018.png" alt="Satuharapan.com" width="460" height="106"/></a></div>
 			<div id="logo-right">
 			    <div id="bann-top-life">
 					<!-- Div 'class' replace with image banner/adv -->
@@ -304,13 +304,13 @@
 			<div id="bg-hd-hbar">
 				<div id="hbar-left">
 					<ul>
-						<li class="first"><a href="<?=baseURL?>"><img src="<?=baseURL.'/'.PATH_template?>images/home.png" width="21" height="17"/></a></li>
+						<li class="first"><a href="<?='https://www.satuharapan.com'?>"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/home.png" width="21" height="17"/></a></li>
 						<?=$topmenu?>
 					</ul>
 				</div>
 				<div id="hbar-right">
 				    <div id="src">
-						<form method="get" action="<?=baseURL?>/search">
+						<form method="get" action="<?='https://www.satuharapan.com'?>/search">
 						    <input type="text" name="search" class="frm" value = "Cari artikel..."
 							     onblur  = "if(this.value ==' ') { this.value='Cari artikel...'}"
 							    onfocus = "if(this.value == 'Cari artikel...') {this.value=' '}" />
