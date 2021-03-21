@@ -32,7 +32,7 @@ require "header.php";
 						for($counterimg=0;$counterimg<count($imgexplode);$counterimg++){?>
 						<div class="listimg left">
 							<div class="img">
-								<img alt="<?=stripslashes($getdetailnews[0]['title'])?>" src="<?=PATH_image.$imgexplode[$counterimg]?>" width="635" height="422"/>
+								<img alt="<?=stripslashes($getdetailnews[0]['title'])?>" src="<?='/uploads/pics/'.$imgexplode[$counterimg]?>" width="635" height="422"/>
 							</div>
 							<div class="caption"><?=$imgcaptionexplode[$counterimg]?></div>
 						</div>
@@ -65,7 +65,7 @@ require "header.php";
 			else if(count($imgexplode)==1&&$imgexplode[0]!=""){
 			?>
 				<div class="img">
-					<img src="<?=PATH_image.$imgexplode[0]?>" width="635" height="422"/>
+					<img src="<?='/uploads/pics/'.$imgexplode[0]?>" width="635" height="422"/>
 				</div>
 				<div class="caption"><?=$imgcaptionexplode[0]?></div>
 
@@ -163,7 +163,7 @@ require "header.php";
 					}
 				?>
 					<div class="listterkait <?=$class?>">
-						<span class="img-thumb"><a title="<?=$terkait['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$terkait['url']?>"><img src="<?=PATH_image.$terkait['image']?>"/></a></span>
+						<span class="img-thumb"><a title="<?=$terkait['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$terkait['url']?>"><img src="<?='/uploads/pics/'.$terkait['image']?>"/></a></span>
 						<div class="titleterkait">
 							 <h4><a title="<?=$terkait['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$terkait['url']?>"><?=$terkait['title']?></a></h4>
 						</div>

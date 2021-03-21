@@ -18,7 +18,7 @@ foreach($listopini as $latestnews)
 		$image = explode(",",$list['image']);
 	?>
 		<div class="listlatesttype2">
-			<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image.$image[0]?>"/></a></span>
+			<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/pics/'.$image[0]?>"/></a></span>
 			<div class="titlelatest float-rt">
 				 <h4><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
 				 
@@ -58,7 +58,7 @@ foreach($listparenting as $latestnews)
 		$image = explode(",",$list['image']);
 	?>
 		<div class="listlatesttype2">
-			<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image.$image[0]?>"/></a></span>
+			<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/pics/'.$image[0]?>"/></a></span>
 			<div class="titlelatest float-rt">
 				 <h4><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
 				 

@@ -31,7 +31,7 @@
 	}
 	?>
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="<?=PATH_image.$og_img?>" />
+	<meta property="og:image" content="<?='/uploads/pics/'.$og_img?>" />
 	<meta property="og:site_name" content="satuharapan.com" />
 	<meta property="og:url" content="https://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	<meta name="language" content="Indonesia" />

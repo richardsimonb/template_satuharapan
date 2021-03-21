@@ -69,13 +69,13 @@
 <a class="none" href="https://plus.google.com/114744379740699124576" rel="publisher">Google+</a>
 <section id="kampanye">
 	<div>
-		<img src="<?=PATH_image.$logo_img?>" alt="<?=$title?>"/>
+		<img src="<?='/uploads/pics/'.$logo_img?>" alt="<?=$title?>"/>
 	</div>
 	<div class="caleg">
 		<h1><span>Nama</span>: <?=$title?></h1>
 		<h2><span>Fraksi</span>: <?=$fraksi?></h2>
 		<div>
-			<img src="<?=PATH_image.$foto_img?>" alt="<?=$title?>"/>
+			<img src="<?='/uploads/pics/'.$foto_img?>" alt="<?=$title?>"/>
 		</div>
 		<div class="isi">
 			<?=$isi_process?>

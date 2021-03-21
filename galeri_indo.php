@@ -49,7 +49,7 @@
                                                            
                     	<div class="listimg left">
                         <div class="imghead1">
-                            <img src="<?=PATH_image.$image_galindo[$counterimg]?>" />
+                            <img src="<?='/uploads/pics/'.$image_galindo[$counterimg]?>" />
                         </div>
                         <div class="caption">
                             <?php echo $caption_galindo[$counterimg] ?>                         
@@ -148,7 +148,7 @@
                                                            
                     	<div class="listimg left">
                         <div class="imghead1">
-                            <img src="<?=PATH_image.$image_galindo2[$counterimg]?>" />
+                            <img src="<?='/uploads/pics/'.$image_galindo2[$counterimg]?>" />
                         </div>
                         <div class="caption">
                             <?php echo $caption_galindo2[$counterimg] ?>                         
@@ -252,7 +252,7 @@
                                                            
                     	<div class="listimg left">
                         <div class="imghead1">
-                            <img src="<?=PATH_image.$image_galindo3[$counterimg]?>" />
+                            <img src="<?='/uploads/pics/'.$image_galindo3[$counterimg]?>" />
                         </div>
                         <div class="caption">
                             <?php echo $caption_galindo3[$counterimg] ?>                         
@@ -356,7 +356,7 @@
                                                            
                     	<div class="listimg left">
                         <div class="imghead1">
-                            <img src="<?=PATH_image.$image_galindo4[$counterimg]?>" />
+                            <img src="<?='/uploads/pics/'.$image_galindo4[$counterimg]?>" />
                         </div>
                         <div class="caption">
                             <?php echo $caption_galindo4[$counterimg] ?>                         
@@ -457,7 +457,7 @@
                                                            
                     	<div class="listimg left">
                         <div class="imghead1">
-                            <img src="<?=PATH_image.$image_galindo5[$counterimg]?>" />
+                            <img src="<?='/uploads/pics/'.$image_galindo5[$counterimg]?>" />
                         </div>
                         <div class="caption">
                             <?php echo $caption_galindo5[$counterimg] ?>                         

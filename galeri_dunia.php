@@ -40,7 +40,7 @@
 
                     	<div class="listimg left">
                         <div class="imghead1">
-                            <img src="<?=PATH_image.$image_galidun[$counterimg]?>" />
+                            <img src="<?='/uploads/pics/'.$image_galidun[$counterimg]?>" />
                         </div>
                         <div class="caption">
                             <?php echo $caption_galidun[$counterimg] ?>
@@ -139,7 +139,7 @@
 
                     	<div class="listimg left">
                         <div class="imghead1">
-                            <img src="<?=PATH_image.$image_galidun2[$counterimg]?>" />
+                            <img src="<?='/uploads/pics/'.$image_galidun2[$counterimg]?>" />
                         </div>
                         <div class="caption">
                             <?php echo $caption_galidun2[$counterimg] ?>
@@ -243,7 +243,7 @@
 
                     	<div class="listimg left">
                         <div class="imghead1">
-                            <img src="<?=PATH_image.$image_galidun3[$counterimg]?>" />
+                            <img src="<?='/uploads/pics/'.$image_galidun3[$counterimg]?>" />
                         </div>
                         <div class="caption">
                             <?php echo $caption_galidun3[$counterimg] ?>
@@ -347,7 +347,7 @@
 
                     	<div class="listimg left">
                         <div class="imghead1">
-                            <img src="<?=PATH_image.$image_galidun4[$counterimg]?>" />
+                            <img src="<?='/uploads/pics/'.$image_galidun4[$counterimg]?>" />
                         </div>
                         <div class="caption">
                             <?php echo $caption_galidun4[$counterimg] ?>
@@ -448,7 +448,7 @@
 
                     	<div class="listimg left">
                         <div class="imghead1">
-                            <img src="<?=PATH_image.$image_galidun5[$counterimg]?>" />
+                            <img src="<?='/uploads/pics/'.$image_galidun5[$counterimg]?>" />
                         </div>
                         <div class="caption">
                             <?php echo $caption_galidun5[$counterimg] ?>
