@@ -138,7 +138,7 @@ require "header.php";
 		
 		<div class="bann-mid1">
 	           <div>
-		     <img src="/uploads/tx_macinabanners/banner-vaksinasi.png"/>
+		     <img src="/uploads/tx_macinabanners/banner-vaksinasi_01.png"/>
 		   </div>	
 		</div>
 		
