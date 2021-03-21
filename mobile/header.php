@@ -11,7 +11,7 @@
 	  gtag('config', 'UA-78633708-1');
 	</script>
 
-	<link rel="stylesheet" type="text/css" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/css/style.css?version=2" />
+	<link rel="stylesheet" type="text/css" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/css/style.css?version=2.1" />
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta name="author" content="PT. Satu Harapan Media, satuharapan.com" />
 	<meta name="description" content="satuharapan.com Berbagi Ruang Dalam Keragaman" />
