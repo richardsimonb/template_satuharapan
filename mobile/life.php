@@ -5,13 +5,13 @@
 	</div>
 	<div class="listlifenews">
 		<?php
-		$imglife = "http://www.satuharapan.com/life/kcfinder/upload/cache/";
+		$imglife = "https://www.satuharapan.com/life/kcfinder/upload/cache/";
 		foreach($listheadline as $life)
 		{
 		?>
 			<div class="lifenews <?=$life['class']?>">
-				<div class="imglife"><a href="http://www.satuharapan.com/life/<?=$life['link']?>"><img src="<?=$imglife.$life['image']?>" alt="<?=$life['title_link']?>" /></a></div>
-				<div class="titlelife"><a href="http://www.satuharapan.com/life/<?=$life['link']?>"><?=$life['judul']?></a></div>
+				<div class="imglife"><a href="https://www.satuharapan.com/life/<?=$life['link']?>"><img src="<?=$imglife.$life['image']?>" alt="<?=$life['title_link']?>" /></a></div>
+				<div class="titlelife"><a href="https://www.satuharapan.com/life/<?=$life['link']?>"><?=$life['judul']?></a></div>
 			</div>
 		<?php
 			if($life['class']=="float-rt"){

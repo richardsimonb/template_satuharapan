@@ -5,8 +5,8 @@ foreach($flora as $latestnews)
 ?>
 	<div class="flora">
 		<div class="judulflora">
-			<span><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span>
-			<span class="otherlatest2link"><a href="<?=baseURL."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
+			<span><a href="<?='https://www.satuharapan.com'?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span>
+			<span class="otherlatest2link"><a href="<?='https://www.satuharapan.com'."/".$latestnews['menuurl']?>"><?=strtoupper($latestnews['nama'])?> lainnya >></a></span>
 			<div class="clear"></div>
 		</div>
 		<?php
@@ -26,17 +26,17 @@ foreach($flora as $latestnews)
 				if($image[0]!=""){
 				resizeFile($image[0],600,400,$image[0]);
 				?>
-				<div class="img-thumb"><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></div>
+				<div class="img-thumb"><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></div>
 				<?php
 				}
 				?>
 				<div class="bagiankiri">
 					<div class="titleflora">
-						 <h6><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h6>
+						 <h6><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h6>
 					</div>
                                         <!-- Menghilangkan cuplikan -->
 					<!-- <span class="preview"><?=$list['preview']?>
-					 <a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><span class="more"></span></a>
+					 <a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><span class="more"></span></a>
 					</span> -->
 				</div>
 				<div class="clear"></div>

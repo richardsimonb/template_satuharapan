@@ -18,7 +18,7 @@ require "header.php";
 		}
 		else{?>
 			<div class="tx-powermail-pi1">
-				<form id="<?=$formid?>" name="<?=$formid?>" class="tx_powermail_pi1_form" enctype="multipart/form-data" method="POST" action="<?=baseURL."/".$route?>">
+				<form id="<?=$formid?>" name="<?=$formid?>" class="tx_powermail_pi1_form" enctype="multipart/form-data" method="POST" action="<?='https://www.satuharapan.com'."/".$route?>">
 				<div class="fieldsets">
 					 <fieldset id="tx-powermail-pi1_fieldset_4" class="tx-powermail-pi1_fieldset tx-powermail-pi1_fieldset_4">
 						<legend><?=$fields[0]['fieldset']?></legend>

@@ -19,7 +19,7 @@
 		}
 ?>
 		<div class="latest-news">
-			<div class="blueTitleSmall"><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></div>
+			<div class="blueTitleSmall"><a href="<?='https://www.satuharapan.com'?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></div>
 			<div class="listlatest">
 				<?php
 				$counter = 0;
@@ -27,19 +27,19 @@
 				foreach($latestnews['berita'] as $listnewsnya){
 					if($counter==0){
 					?>
-						<h3><a href="<?=baseURL?>/read-detail/read/<?=$listnewsnya['value_alias']?>"><?=$listnewsnya['title']?></a></h3>
+						<h3><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listnewsnya['value_alias']?>"><?=$listnewsnya['title']?></a></h3>
 					<?php
 					}
 					else
 					{
-						$string .= '<li><a href="'.baseURL.'/read-detail/read/'.$listnewsnya['value_alias'].'">'.$listnewsnya['title'].'</a></li>';
+						$string .= '<li><a href="'.'https://www.satuharapan.com'.'/read-detail/read/'.$listnewsnya['value_alias'].'">'.$listnewsnya['title'].'</a></li>';
 					}
 					$counter++;
 				}
 				echo "<ul>".$string."</ul>";
 				?>
 			</div>
-			<a href="<?=baseURL."/".$latestnews['menuurl']?>" class="otherlatestlink">Kabar <?=ucwords(strtolower($latestnews['nama']))?> lainnya >></a>
+			<a href="<?='https://www.satuharapan.com'."/".$latestnews['menuurl']?>" class="otherlatestlink">Kabar <?=ucwords(strtolower($latestnews['nama']))?> lainnya >></a>
 		</div>
 <?php
 		$countercat++;

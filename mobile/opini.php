@@ -9,7 +9,7 @@ foreach($listopini as $latestnews)
 ?>
 <div class="latesttype2 <?=$classmargin?>">
 	<div class="blueTitleSmall">
-		<span><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span>
+		<span><a href="<?='https://www.satuharapan.com'?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span>
                 
 	</div>
 	<div class="latesttype2case">
@@ -18,9 +18,9 @@ foreach($listopini as $latestnews)
 		$image = explode(",",$list['image']);
 	?>
 		<div class="listlatesttype2">
-			<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/pics/'.$image[0]?>"/></a></span>
+			<span class="img-thumb float-lt"><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/pics/'.$image[0]?>"/></a></span>
 			<div class="titlelatest float-rt">
-				 <h4><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
+				 <h4><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
 				 
 			</div>
 			<div class="clear"></div>
@@ -30,7 +30,7 @@ foreach($listopini as $latestnews)
 	?>
 		<div class="clear"></div>
 	</div>
-     <span class="otherlatestlink"><a href="<?=baseURL."/".$latestnews['menuurl']?>"><?=$latestnews['nama']?> lainnya >></a></span>
+     <span class="otherlatestlink"><a href="<?='https://www.satuharapan.com'."/".$latestnews['menuurl']?>"><?=$latestnews['nama']?> lainnya >></a></span>
 	<div class="clear"></div>
 </div>
 <?php
@@ -49,7 +49,7 @@ foreach($listparenting as $latestnews)
 ?>
 <div class="latesttype2 <?=$classmargin?>">
 	<div class="blueTitleSmall">
-		<span><a href="<?=baseURL?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span>
+		<span><a href="<?='https://www.satuharapan.com'?>/<?=$latestnews['menuurl']?>" class="blueTitle_a"><?=strtoupper($latestnews['nama'])?></a></span>
                 
 	</div>
 	<div class="latesttype2case">
@@ -58,9 +58,9 @@ foreach($listparenting as $latestnews)
 		$image = explode(",",$list['image']);
 	?>
 		<div class="listlatesttype2">
-			<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/pics/'.$image[0]?>"/></a></span>
+			<span class="img-thumb float-lt"><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/pics/'.$image[0]?>"/></a></span>
 			<div class="titlelatest float-rt">
-				 <h4><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
+				 <h4><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h4>
 				 
 			</div>
 			<div class="clear"></div>
@@ -70,7 +70,7 @@ foreach($listparenting as $latestnews)
 	?>
 		<div class="clear"></div>
 	</div>
-     <span class="otherlatestlink"><a href="<?=baseURL."/".$latestnews['menuurl']?>"><?=$latestnews['nama']?> lainnya >></a></span>
+     <span class="otherlatestlink"><a href="<?='https://www.satuharapan.com'."/".$latestnews['menuurl']?>"><?=$latestnews['nama']?> lainnya >></a></span>
 	<div class="clear"></div>
 </div>
 <?php

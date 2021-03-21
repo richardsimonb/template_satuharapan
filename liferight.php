@@ -3,7 +3,7 @@
   if($life=="exist"){?>
   <div id="life">
 	<div id="lifelogoarea">
-		<a href="http://www.satuharapan.com/life/" target="_blank"><span id="lifelogo" ></span></a>
+		<a href="https://www.satuharapan.com/life/" target="_blank"><span id="lifelogo" ></span></a>
 		
 		
 		
@@ -12,14 +12,14 @@
 	</div>
 	<div class="listlifenews">
 		<?php
-		$imglife = "http://www.satuharapan.com/life/kcfinder/upload/cache/";
+		$imglife = "https://www.satuharapan.com/life/kcfinder/upload/cache/";
 		$counter_life = 0;
 		foreach($listheadline as $life)
 		{
 		?>
 			<div class="lifenews <?=$life['class']?>">
-				<div class="imglife"><a href="http://www.satuharapan.com/life/<?=$life['link']?>" title="<?=$life['title_link']?>" target="_blank"><img src="<?=$imglife."133x89_".$life['image']?>" alt="<?=$life['title_link']?>" width="133" height="89"/></a></div>
-				<div class="titlelife"><a href="http://www.satuharapan.com/life/<?=$life['link']?>" title="<?=$life['title_link']?>" target="_blank"><?=$life['judul']?></a></div>
+				<div class="imglife"><a href="https://www.satuharapan.com/life/<?=$life['link']?>" title="<?=$life['title_link']?>" target="_blank"><img src="<?=$imglife."133x89_".$life['image']?>" alt="<?=$life['title_link']?>" width="133" height="89"/></a></div>
+				<div class="titlelife"><a href="https://www.satuharapan.com/life/<?=$life['link']?>" title="<?=$life['title_link']?>" target="_blank"><?=$life['judul']?></a></div>
 			</div>
 		<?php
 			if($counter_life%2==1)

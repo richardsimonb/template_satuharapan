@@ -21,13 +21,13 @@
 	<meta name="language" content="Indonesia" />
 	<meta name="rating" content="general" />
 	<title>Satu Harapan: <?=$title?></title>
-	<!--<base href="<?=baseURL?>">-->
+	<!--<base href="<?='https://www.satuharapan.com'?>">-->
 	<meta name="bitly-verification" content="fbdeb1a23940"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/reset.css" />
-	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/text.css" />
-	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>css/style.css?v5" />
-	<link rel="shortcut icon" href="<?=baseURL.'/'.PATH_template?>favicon.png" />
+	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/reset.css" />
+	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/text.css" />
+	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/style.css?v5" />
+	<link rel="shortcut icon" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>favicon.png" />
 	<script async="" src="//www.google-analytics.com/analytics.js">
 	</script>
 	<script>

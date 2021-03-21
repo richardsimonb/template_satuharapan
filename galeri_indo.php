@@ -62,8 +62,8 @@
             </div>
             <div class="clear"></div>
             <div id="positions1"></div>
-            <div id="prev1"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
-	    <div id="next1"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
+            <div id="prev1"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
+	    <div id="next1"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
             
         </div>
         
@@ -163,8 +163,8 @@
             </div>
             <div class="clear"></div>
             <div id="positions2"></div>
-            <div id="prev2"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
-	    <div id="next2"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
+            <div id="prev2"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
+	    <div id="next2"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
             
         </div>
         
@@ -266,8 +266,8 @@
             </div>
             <div class="clear"></div>
             <div id="positions3"></div>
-            <div id="prev3"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
-	    <div id="next3"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
+            <div id="prev3"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
+	    <div id="next3"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
            
         </div>
         
@@ -371,8 +371,8 @@
             </div>
             <div class="clear"></div>
             <div id="positions4"></div>
-            <div id="prev4"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
-	    <div id="next4"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
+            <div id="prev4"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
+	    <div id="next4"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
             
         </div>
         
@@ -471,8 +471,8 @@
             </div>
             <div class="clear"></div>
             <!--<div id="positions5"></div>-->
-            <div id="prev5"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
-	    <div id="next5"><img src="<?=baseURL.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
+            <div id="prev5"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kiri.png" alt="prev"/></div>
+	    <div id="next5"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/panah_kanan.png" alt="next"/></div>
            
         </div>
         

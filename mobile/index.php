@@ -17,10 +17,10 @@ require "header.php";
 					<div class="kpem-con <?=$classphoto?>">
 						<?php if($image[0]!=""){
 							resizeFile($image[0],600,400,$image[0]); ?>
-							<div class="img-thumb-photo"><a href="<?=baseURL?>/read-detail/read/<?=$photo['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></div>
+							<div class="img-thumb-photo"><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$photo['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></div>
 						<?php } ?>
 						<div class="titlelatest">
-							<h4><a href="<?=baseURL?>/read-detail/read/<?=$photo['value_alias']?>"><?=$photo['title']?></a></h4>
+							<h4><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$photo['value_alias']?>"><?=$photo['title']?></a></h4>
 						</div>
 				</div>
 					<?php if($classphoto =="float-rt"){
@@ -39,13 +39,13 @@ require "header.php";
 							<?php $class="titlelatestnophoto";
 							if($image[0]!=""){
 								resizeFile($image[0],600,400,$image[0]); ?>
-								<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></span>
+								<span class="img-thumb float-lt"><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></span>
 								<?php $class="titlelatest";
 							} ?>
 							<div class="<?=$class?> float-lt">
-								<h1><a href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>"><?=$listlatest['title']?></a></h1>
+								<h1><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['value_alias']?>"><?=$listlatest['title']?></a></h1>
 								<span class="preview"><?=$listlatest['preview']?>
-								<a href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>"><span class="more"></span></a></span>
+								<a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['value_alias']?>"><span class="more"></span></a></span>
 							</div>
 								<div class="clear"></div>
 						</div>
@@ -72,10 +72,10 @@ require "header.php";
 					<?php
 					if($image[0]!=""){
 						resizeFile($image[0],600,400,$image[0]);?>
-						<div class="img-thumb-photo"><a href="<?=baseURL?>/read-detail/read/<?=$photo['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></div>
+						<div class="img-thumb-photo"><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$photo['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></div>
 					<?php }	?>
 					<div class="titlelatest">
-						<h4><a href="<?=baseURL?>/read-detail/read/<?=$photo['value_alias']?>"><?=$photo['title']?></a></h4>
+						<h4><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$photo['value_alias']?>"><?=$photo['title']?></a></h4>
 					</div>
 			    </div>
 		   		<?php if($classphoto =="float-rt"){
@@ -148,7 +148,7 @@ require "header.php";
 
 		<!-- Tempat Banner full5 -->
 		<div class="share">
-            		<div><a href="<?=baseURL.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>			
+            		<div><a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>			
 		</div>
 
 		<!-- Facebook Page Plugin -->

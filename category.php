@@ -11,15 +11,15 @@
 				<?php
 				$class="titleonly";
 				if($image[0]!=""){?>
-				<span class="img-thumb"><a href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>" title="<?=$listlatest['realtitle']?>"><img src="<?='/uploads/cache/'."309x206_".$image[0]?>" height="206" width="309" alt="<?=$listlatest['realtitle']?>"/></a></span>
+				<span class="img-thumb"><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['value_alias']?>" title="<?=$listlatest['realtitle']?>"><img src="<?='/uploads/cache/'."309x206_".$image[0]?>" height="206" width="309" alt="<?=$listlatest['realtitle']?>"/></a></span>
 				<?php
 				$class="titlelatest";
 				}
 				?>
 				<div class="<?=$class?>">
-					<h1><a href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>" title="<?=$listlatest['realtitle']?>"><?=$listlatest['title']?></a></h1>
+					<h1><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['value_alias']?>" title="<?=$listlatest['realtitle']?>"><?=$listlatest['title']?></a></h1>
 					<?=$listlatest['preview']?>
-					<a href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>" title="<?=$listlatest['realtitle']?>"><span class="more"></span></a>
+					<a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['value_alias']?>" title="<?=$listlatest['realtitle']?>"><span class="more"></span></a>
 				</div>
 				<div class="clear"></div>
 		   </div>

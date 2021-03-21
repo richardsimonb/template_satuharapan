@@ -7,7 +7,7 @@
 		foreach($populer as $list){
 		?>
 			
-				<li><h5><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h5></li>
+				<li><h5><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><?=$list['title']?></a></h5></li>
 			
 		<?php
 		}

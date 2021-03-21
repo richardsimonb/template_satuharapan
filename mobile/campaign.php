@@ -18,15 +18,15 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="<?=$og_img?>" />
 	<meta property="og:site_name" content="SatuHarapan.com" />
-	<meta property="og:url" content="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
+	<meta property="og:url" content="https://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
 	<meta name="language" content="Indonesia" />
 	<meta name="rating" content="general" />
 	<title>Satu Harapan: <?=$title?></title>
-	<!--<base href="<?=baseURL?>">-->
+	<!--<base href="<?='https://www.satuharapan.com'?>">-->
 	<meta name="bitly-verification" content="fbdeb1a23940"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<link rel="stylesheet" href="<?=baseURL.'/'.PATH_template?>mobile/style.css" />
-	<link rel="shortcut icon" href="<?=baseURL.'/'.PATH_template?>mobile/favicon.png" />
+	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/style.css" />
+	<link rel="shortcut icon" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/favicon.png" />
 	<script async="" src="//www.google-analytics.com/analytics.js">
 	</script>
 	<script>

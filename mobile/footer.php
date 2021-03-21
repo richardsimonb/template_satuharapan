@@ -10,7 +10,7 @@
 	</section>
 	<nav id="primary">
 		<ul class="nav">
-			<li><a href="<?=baseURL?>" class="n-home"><?=$bottommenu2[0]['title']?></a></li>
+			<li><a href="<?='https://www.satuharapan.com'?>" class="n-home"><?=$bottommenu2[0]['title']?></a></li>
 			<li><a href="<?php echo $bottommenu2[1]['url']; ?>" class="n-account"><?=$bottommenu2[1]['title']?></a></li>
 			<li><a href="<?php echo $bottommenu2[2]['url']; ?>" class="n-info"><?=$bottommenu2[2]['title']?></a></li>
 			<li><a href="<?php echo $bottommenu2[3]['url']; ?>" class="n-contact"><?=$bottommenu2[3]['title']?></a></li>
@@ -21,7 +21,7 @@
 	<section class="bottom">
 		<!--<div class="float-lt"><a href="#top">BACK TO TOP</a></div>-->
                 <div class="float-lt">PT Satu Harapan Media</div>
-		<div class="float-rt">VIEW <a href="<?php echo $baseURL; ?>/switch/desktop"><img src="<?=baseURL.'/'.PATH_template?>/images/desktop_sh.png" width="32px" />&nbsp;DESKTOP VERSION</a></div>
+		<div class="float-rt">VIEW <a href="<?php echo $'https://www.satuharapan.com'; ?>/switch/desktop"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>/images/desktop_sh.png" width="32px" />&nbsp;DESKTOP VERSION</a></div>
 		<div class="clear"></div>
 	</section>
 </footer>
@@ -94,7 +94,7 @@
 	},false);
 	</script>
 <div id='toTop'>
-<a href="<?=baseURL?>"><img alt="Back to Home" src="<?=baseURL.'/'.PATH_template?>mobile/images/house_sm.png" width="35px" /></a>
+<a href="<?='https://www.satuharapan.com'?>"><img alt="Back to Home" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/house_sm.png" width="35px" /></a>
 </div>
 </body>
 </html>

@@ -32,21 +32,21 @@ require "header.php";
 			<div class="isiberita"><?=$isi_process?></div>
 			<div class="share">
 
-				<div id="twshare" class="float-lt"><a href="https://twitter.com/share" class="twitter-share-button" data-url="<?=$short_url;?>" data-via="1harapan" data-counturl="<?=baseURL."/".$route?>">Tweet</a></div>
+				<div id="twshare" class="float-lt"><a href="https://twitter.com/share" class="twitter-share-button" data-url="<?=$short_url;?>" data-via="1harapan" data-counturl="<?='https://www.satuharapan.com'."/".$route?>">Tweet</a></div>
 
 				<div id="fbshare" class="float-lt">
-					<div class="fb-share-button" data-href="<?=$short_url;?>" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsatuharapan.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Bagikan</a></div>
+					<div class="fb-share-button" data-href="<?=$short_url;?>" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsatuharapan.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Bagikan</a></div>
 				</div>
 				
 				<div class="float-lt" id="whatsapp">
 				<!-- share ke Whatsapp by H tgl 1 Nov 2016 -->
-					<a href="whatsapp://send?text=<?=baseURL?><?=$_SERVER['REQUEST_URI']?>" 
+					<a href="whatsapp://send?text=<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>" 
 					data-action="share/whatsapp/share">
-					<img src="<?=baseURL.'/'.PATH_template?>mobile/images/WA-share.jpg" width="96px" height="24px" alt="Bagikan ke WhatsApp" /></a>
+					<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/WA-share.jpg" width="96px" height="24px" alt="Bagikan ke WhatsApp" /></a>
 				</div>
 
 				<div class="float-lt" id="line">
-					<div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="<?=baseURL?><?=$_SERVER['REQUEST_URI']?>" data-color="default" data-size="small" data-count="true" style="display: none;"></div>
+					<div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>" data-color="default" data-size="small" data-count="true" style="display: none;"></div>
 					<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
 				</div>
 				<div class="clear"></div>
@@ -80,7 +80,7 @@ require "header.php";
 				foreach($berita_terkait as $terkait)
 				{
 				?>
-					<li><h2><a href="<?=baseURL?>/read-detail/read/<?=$terkait['url']?>"><?=$terkait['title']?></a></h2></li>
+					<li><h2><a href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$terkait['url']?>"><?=$terkait['title']?></a></h2></li>
 				<?php
 				}
 				?>
@@ -154,7 +154,7 @@ require "header.php";
 
 		<!-- Posisi Awal Banner full5 -->
 		<div class="share">
-			<div><a href="<?=baseURL.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?=baseURL.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>
+			<div><a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>
 		</div>
 
 	</section>
