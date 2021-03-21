@@ -163,7 +163,3 @@ require "header.php";
 <?php
 require "footer.php";
 ?>
-
-<script type="text/javascript">
-	document.getElementsByClassName('preview' ).style.display="none";
-</script>
