@@ -26,7 +26,7 @@ foreach($flora as $latestnews)
 				if($image[0]!=""){
 				resizeFile($image[0],600,400,$image[0]);
 				?>
-				<div class="img-thumb"><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache.$image[0]?>"/></a></div>
+				<div class="img-thumb"><a href="<?=baseURL?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></div>
 				<?php
 				}
 				?>

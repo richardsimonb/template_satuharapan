@@ -18,7 +18,7 @@ require "header.php";
 							if($image[0]!=""){
 							resizeFile($image[0],600,400,$image[0]);
 							?>
-							<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$listlatest['url']?>"><img src="<?=PATH_image_cache.$image[0]?>"/></a></span>
+							<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$listlatest['url']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></span>
 						<?php
 								$class="titlelatest";
 							}

@@ -41,7 +41,7 @@
 				<?php
 				$class="titlepopulernophoto";
 				if($image[0]!=""){?>
-				<span class="img-thumb"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."202x135_".$image[0]?>" width="202" height="135" alt="<?=$list['realtitle']?>"/></a></span>
+				<span class="img-thumb"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/cache/'."202x135_".$image[0]?>" width="202" height="135" alt="<?=$list['realtitle']?>"/></a></span>
 				<?php
 					$class="titlepopuler";
 				}
@@ -75,7 +75,7 @@ foreach($flora as $latestnews)
 				<?php
 				$class="bagiankirinophoto";
 				if($image[0]!=""){?>
-				<div class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."226x150_".$image[0]?>" width="226" height="150" alt="<?=$list['realtitle']?>"/></a></div>
+				<div class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/cache/'."226x150_".$image[0]?>" width="226" height="150" alt="<?=$list['realtitle']?>"/></a></div>
 				<?php
 					$class="bagiankiri";
 				}

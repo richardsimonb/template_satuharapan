@@ -17,7 +17,7 @@ require "header.php";
 					<div class="kpem-con <?=$classphoto?>">
 						<?php if($image[0]!=""){
 							resizeFile($image[0],600,400,$image[0]); ?>
-							<div class="img-thumb-photo"><a href="<?=baseURL?>/read-detail/read/<?=$photo['value_alias']?>"><img src="<?=PATH_image_cache.$image[0]?>"/></a></div>
+							<div class="img-thumb-photo"><a href="<?=baseURL?>/read-detail/read/<?=$photo['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></div>
 						<?php } ?>
 						<div class="titlelatest">
 							<h4><a href="<?=baseURL?>/read-detail/read/<?=$photo['value_alias']?>"><?=$photo['title']?></a></h4>
@@ -39,7 +39,7 @@ require "header.php";
 							<?php $class="titlelatestnophoto";
 							if($image[0]!=""){
 								resizeFile($image[0],600,400,$image[0]); ?>
-								<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>"><img src="<?=PATH_image_cache.$image[0]?>"/></a></span>
+								<span class="img-thumb float-lt"><a href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></span>
 								<?php $class="titlelatest";
 							} ?>
 							<div class="<?=$class?> float-lt">
@@ -72,7 +72,7 @@ require "header.php";
 					<?php
 					if($image[0]!=""){
 						resizeFile($image[0],600,400,$image[0]);?>
-						<div class="img-thumb-photo"><a href="<?=baseURL?>/read-detail/read/<?=$photo['value_alias']?>"><img src="<?=PATH_image_cache.$image[0]?>"/></a></div>
+						<div class="img-thumb-photo"><a href="<?=baseURL?>/read-detail/read/<?=$photo['value_alias']?>"><img src="<?='/uploads/cache/'.$image[0]?>"/></a></div>
 					<?php }	?>
 					<div class="titlelatest">
 						<h4><a href="<?=baseURL?>/read-detail/read/<?=$photo['value_alias']?>"><?=$photo['title']?></a></h4>

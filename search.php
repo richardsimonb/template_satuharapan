@@ -15,7 +15,7 @@ require "header.php";
 							<?php
 							$class="titleonly";
 							if($listlatest['image']!=""){?>
-							<span class="img-thumb"><a title="<?=$listlatest['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['url']?>"><img src="<?=PATH_image_cache.$listlatest['image']?>" width="309" height="206" alt="<?=$listlatest['title']?>"/></a></span>
+							<span class="img-thumb"><a title="<?=$listlatest['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['url']?>"><img src="<?='/uploads/cache/'.$listlatest['image']?>" width="309" height="206" alt="<?=$listlatest['title']?>"/></a></span>
 							<?php
 								$class="titlelatest";
 							}

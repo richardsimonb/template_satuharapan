@@ -11,7 +11,7 @@
 				<?php
 				$class="titleonly";
 				if($image[0]!=""){?>
-				<span class="img-thumb"><a href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>" title="<?=$listlatest['realtitle']?>"><img src="<?=PATH_image_cache."309x206_".$image[0]?>" height="206" width="309" alt="<?=$listlatest['realtitle']?>"/></a></span>
+				<span class="img-thumb"><a href="<?=baseURL?>/read-detail/read/<?=$listlatest['value_alias']?>" title="<?=$listlatest['realtitle']?>"><img src="<?='/uploads/cache/'."309x206_".$image[0]?>" height="206" width="309" alt="<?=$listlatest['realtitle']?>"/></a></span>
 				<?php
 				$class="titlelatest";
 				}

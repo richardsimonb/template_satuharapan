@@ -21,7 +21,7 @@ require "header.php";
 				?>
 				<div class="listimg">
 					<div class="img">
-						<img src="<?=PATH_image_cache.$imgexplode[$m]?>" width="600" height="400"/>
+						<img src="<?='/uploads/cache/'.$imgexplode[$m]?>" width="600" height="400"/>
 					</div>
 					<div class="caption"><?=$imgcaptionexplode[$m]?></div>
 				</div>

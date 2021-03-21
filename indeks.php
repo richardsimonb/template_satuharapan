@@ -13,7 +13,7 @@
 			<?php
 			$class="titleonly";
 			if($image[0]!=""){?>
-			<span class="img-thumb"><a title="<?=$listlatest['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['url']?>"><img src="<?=PATH_image_cache."309x206_".$image[0]?>" width="309" height="206" alt="<?=$listlatest['title']?>"/></a></span>
+			<span class="img-thumb"><a title="<?=$listlatest['title']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listlatest['url']?>"><img src="<?='/uploads/cache/'."309x206_".$image[0]?>" width="309" height="206" alt="<?=$listlatest['title']?>"/></a></span>
 			<?php
 				$class="titlelatest";
 			}

@@ -57,7 +57,7 @@ foreach($listnewsopini as $latestnews)
 	    		<div class="listlatesttype2 left">
 				<?php
 				if($image[0]!=""){?>
-		    		<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
+		    		<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/cache/'."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
     			<?php
 				}
 				?>
@@ -99,7 +99,7 @@ foreach($listnewsparenting as $latestnews)
 	    		<div class="listlatesttype2 left">
 				<?php
 				if($image[0]!=""){?>
-		    		<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
+		    		<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/cache/'."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
     			<?php
 				}
 				?>
@@ -143,7 +143,7 @@ foreach($listnewsparenting as $latestnews)
 		<div class="listlatesttype2 left">
 			<?php
 //if($image[0]!=""){?>
-			<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
+			<span class="img-thumb left"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/cache/'."150x100_".$image[0]?>" width="150" height="100" alt="<?=$list['realtitle']?>"/></a></span>
 			<?php
 //			}
 			?>
@@ -194,7 +194,7 @@ foreach($listnewsparenting as $latestnews)
 <!--			<div class="listlatesttype3 <?=$class?>"> -->
 				<?php
 //				if($image[0]!=""){?>
-<!--				<span class="img-thumb"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?=PATH_image_cache."222x148_".$image[0]?>" width="222" height="148" alt="<?=$list['realtitle']?>"/></a></span>
+<!--				<span class="img-thumb"><a title="<?=$list['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$list['value_alias']?>"><img src="<?='/uploads/cache/'."222x148_".$image[0]?>" width="222" height="148" alt="<?=$list['realtitle']?>"/></a></span>
 -->
 				<?php
 //				}

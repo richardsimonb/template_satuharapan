@@ -72,7 +72,7 @@
 							<?php
 							$class="titleonly";
 							if($image[0]!=""){?>
-							<span class="img-thumb"><a title="<?=$listnewsnya['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listnewsnya['value_alias']?>"><img src="<?=PATH_image_cache."225x150_".$image[0]?>" width="225" height="150" alt="<?=$listnewsnya['realtitle']?>"/></a></span>
+							<span class="img-thumb"><a title="<?=$listnewsnya['realtitle']?>" href="<?='https://www.satuharapan.com'?>/read-detail/read/<?=$listnewsnya['value_alias']?>"><img src="<?='/uploads/cache/'."225x150_".$image[0]?>" width="225" height="150" alt="<?=$listnewsnya['realtitle']?>"/></a></span>
 							<?php
 							$class="titlelatest";
 							}

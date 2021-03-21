@@ -541,7 +541,7 @@
             <div class="imgthumbhead2">
 <!--                <img src="images/1.jpg" /> -->
 
-                 <img src="<?=PATH_image_cache."150x100_".$image[0]?>" />
+                 <img src="<?='/uploads/cache/'."150x100_".$image[0]?>" />
                 <div class="tglsbl"><?php echo $galidun_smp['title'] ?></div>
             </div>
         </div>
