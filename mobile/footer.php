@@ -21,7 +21,7 @@
 	<section class="bottom">
 		<!--<div class="float-lt"><a href="#top">BACK TO TOP</a></div>-->
                 <div class="float-lt">PT Satu Harapan Media</div>
-		<div class="float-rt">VIEW <a href="<?php echo $'https://www.satuharapan.com'; ?>/switch/desktop"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>/images/desktop_sh.png" width="32px" />&nbsp;DESKTOP VERSION</a></div>
+		<div class="float-rt">VIEW <a href="https://www.satuharapan.com/switch/desktop"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>/images/desktop_sh.png" width="32px" />&nbsp;DESKTOP VERSION</a></div>
 		<div class="clear"></div>
 	</section>
 </footer>
