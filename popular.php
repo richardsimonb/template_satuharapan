@@ -19,7 +19,7 @@
 	</div>
 	<div class="bann-mid1">
 		<?php
-		echo getBanner($full4,$banner_path);
+		echo getBanner($full4,$banner_path,"bannerMid");
 		?>
 	</div>
 	<div class="popular left">
@@ -114,7 +114,7 @@ foreach($flora as $latestnews)
 	<div class="clear"></div>
 </div>
 <div class="bann-mid1">
-	<?php echo getBanner($full5,$banner_path); ?>
+	<?php echo getBanner($full5,$banner_path,"bannerMid"); ?>
 </div> 
 
 <div class="clear"></div>
