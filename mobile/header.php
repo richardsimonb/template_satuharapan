@@ -25,9 +25,6 @@
 	<meta http-equiv="content-language" content="In-Id">
 	<meta name="geo.placename" content="Indonesia">
 
-	<meta name="bitly-verification" content="fbdeb1a23940"/>
-
-
 	<?php
 	if($keyword){
 	?>

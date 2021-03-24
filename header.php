@@ -62,7 +62,6 @@
 	<title><?=$title?> - Satu Harapan</title>
 	
 	<!--<base href="<?='https://www.satuharapan.com'?>">-->
-	<meta name="bitly-verification" content="fbdeb1a23940"/>
 	
 	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/reset.css" />
 	<!--<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/text.css" />-->
