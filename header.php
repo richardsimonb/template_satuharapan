@@ -12,6 +12,7 @@
 	</script>
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta name="author" content="PT. Satu Harapan Media | satuharapan.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="googlebot-news" content="index, follow">
