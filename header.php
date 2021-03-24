@@ -21,6 +21,7 @@
 	<meta name="geo.country" content="id">
 	<meta http-equiv="content-language" content="In-Id">
 	<meta name="geo.placename" content="Indonesia">
+	<meta name="google-site-verification" content="GN62cXC9ihahXR5tf_A3wopqATomzuHEJAjbvKKP0LE" />
 
 	<meta property="og:title" content="<?=$title?> - Satu Harapan" />
 	<meta property="og:description" content="<?=$desc?>" />
