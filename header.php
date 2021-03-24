@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html lang="id" xmlns="http://www.w3.org/1999/xhtml" xml:lang="id">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -11,10 +11,16 @@
 	  gtag('config', 'UA-78633708-1');
 	</script>
 	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="author" content="PT. Satu Harapan Media | satuharapan.com" />
-    <meta name="news_keywords" content="<?=$keyword?>" />
-	<meta name="description" content="satuharapan.com | Berbagi Ruang Dalam Keragaman" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="googlebot-news" content="index, follow">
+	<meta name="googlebot" content="index, follow">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="id">
+	<meta name="geo.country" content="id">
+	<meta http-equiv="content-language" content="In-Id">
+	<meta name="geo.placename" content="Indonesia">
 
 	<meta property="og:title" content="<?=$title?> - Satu Harapan" />
 	<meta property="og:description" content="<?=$desc?>" />
@@ -29,15 +35,20 @@
         <meta name="keywords" content="<?=$keyword?>" />
 	    
 	<?php
-	}
+	} else {?>
+		<meta name="keywords" content="Satu Harapan, Berbagi Ruang Dalam Keberagaman, Telling News and Milenial Life, Berita" />
+	<?php }
 	?>
-
 	<?php
 	if($pages_require == "read-detail.php"){
 	?>
+		<meta name="description" content="<?=$desc?>" />
 	    <link rel="canonical" href="<?='https://www.satuharapan.com'."/".$route?>"/>
 	<?php
-	}
+	} else { ?>
+		<meta name="description" content="Satuharapan.com - Berbagi Ruang dalam Keberagaman" />
+		<link rel="canonical" href="https://www.satuharapan.com"/>
+	<?php }
 	?>
 
 	<meta name="rating" content="general" />
@@ -52,7 +63,7 @@
 	
 	<!--<base href="<?='https://www.satuharapan.com'?>">-->
 	<meta name="bitly-verification" content="fbdeb1a23940"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
 	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/reset.css" />
 	<!--<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/text.css" />-->
 
