@@ -31,7 +31,7 @@
     </object> 
     -->
 	<?php
-	echo getBanner($full3,$banner_path);
+	echo getBanner($full3,$banner_path,"bannerMid");
 	?>
 </div>
 
