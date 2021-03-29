@@ -82,9 +82,6 @@ require "header.php";
     </div>
     <div id="fbshare" class="left"><div class="fb-share-button" data-href="<?=$short_url;?>" data-type="button_count"></div></div>
     <!-- Place this tag where you want the share button to render. -->
-    <!-- <div id="gplusshare" class="left">
-	<div class="g-plus" data-action="share" data-annotation="bubble" data-href="<?=$short_url;?>"></div>
-    </div> -->
     <div id="whatsappshare" class="left">
       <!-- share ke Whatsapp by H tgl 1 Nov 2016 -->
       <a href="whatsapp://send?text=<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>" data-action="share/whatsapp/share">
