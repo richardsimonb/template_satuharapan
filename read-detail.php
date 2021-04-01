@@ -229,10 +229,6 @@ require "header.php";
 	<!-- Sisipan banner -->
 	
 	<div class="bann-mid1">
-	<!--<a href="http://bpkpenaburjakarta.or.id" target="_blank">
-
-	<img src="http://www.satuharapan.com/uploads/hutbpk.jpg"> -->
-	
 		<?php echo getBanner($full1, $banner_path, "bannerMid"); ?>
 	</div>
 	<div class="bann-mid1">
@@ -246,22 +242,7 @@ require "header.php";
 		require "opini.php";
 		?>
 		
-		
-		
-		<!--<div class="iklanUKI">
-		<a href ="http://www.uki.ac.id" target="_blank">
-		
-		
-		<img src="http://www.satuharapan.com/uploads/tx_macinabanners/Iklan_Satu_Harapan_960x150px-Mahasiswa_Baru.jpg" alt="">
-		
-		</a>				
-		</div>-->
-		
 		<div class="spasi10"> </div>
-		
-		<?php 
-		//require "bannerKC.php"; 
-		?>
 		
 		<div class="bann-mid1">
 			<?php echo getBanner($full4,$banner_path, "bannerMid"); ?>
