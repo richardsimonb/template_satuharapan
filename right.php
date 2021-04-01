@@ -74,7 +74,7 @@
 	
     </div>
 
-    <div class=iklan_ataslife_rd>
+    <div class="iklan_ataslife_rd bannerRight">
         <img src="/fileadmin/banners/post-jumat-agung-2021.jpg" />
     </div>
     

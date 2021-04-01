@@ -158,7 +158,7 @@
 		}
 	</style>
 
-	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/style2.css?version=1.2" />
+	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/style2.css?version=1.3" />
 	<link rel="shortcut icon" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/favicon.ico" />
 	
 	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/jquery-1.9.1.min.js?v=1"></script>
