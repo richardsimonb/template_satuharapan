@@ -75,9 +75,7 @@
     </div>
 
     <div class=iklan_ataslife_rd>
-      <a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
-          <img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
-      </a>
+        <img src="/fileadmin/banners/post-jumat-agung-2021.jpg" />
     </div>
     
     <!-- <div class=iklan_ataslife_rd><a href="http://www.satuharapan.com/uploads/tx_macinabanners/AdLarryBrook.jpg" target="_blank"><img src="http://www.satuharapan.com/uploads/tx_macinabanners/LarryBrook.jpg" /></a>
@@ -179,7 +177,11 @@
     }
     ?>
 
-
+<div class=iklan_ataslife_rd>
+	<a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
+		<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
+	</a>
+</div>
   <?php
 //  require "liferight.php";
   ?>
