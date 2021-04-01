@@ -7,8 +7,7 @@ require "header.php";
 		<div id="ctop-left">
 			<div class="blueTitle"><?=strtoupper($getparentcategory)?></div>
 			<div class="infoberita">
-			
-			
+					
 			<!-- edit by:ben, tgl 20 feb 2016, penambahan kata karikaturis -->
 			<?php
 				if(strtoupper($getparentcategory) =="KARIKATUR"){ ?>
@@ -16,9 +15,6 @@ require "header.php";
 				<?php } else { ?>
 			    <span class="left">Penulis: <?=$getdetailnews[0]['author']?></span> 
 				<?php } ?>
-			
-				
-				<!--<span class="left">Penulis: <?=$getdetailnews[0]['author']?></span>-->
 				<span class="right"><?=$publisdate?></span>
 				<div class="clear"></div>
 			</div>
@@ -90,10 +86,6 @@ require "header.php";
     <div id="lineshare" class="left">
       <div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>" data-color="default" data-size="small" data-count="true" style="display: none;"></div>
       <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
-      <!-- <script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
-	   <script type="text/javascript">
-	      new media_line_me.LineButton({"pc":false,"lang":"en","type":"a","text":"<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>","withUrl":true});
-	   </script> -->
     </div>
     <div class="clear"></div>
   </div>
@@ -127,16 +119,7 @@ require "header.php";
 <!--				<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/PlacedBanner635x150.jpg"/> -->
 			</div>
 				<?php } ?>
-
-
-			<!--iklan googlead 
-			<div class="adplus_panjang">
-			
-					
-				
-			</div> -->
-			
-								
+											
 			<?php
 			
 			if(count($berita_terkait)>0){?>
@@ -173,15 +156,7 @@ require "header.php";
 			</div>
 			<?php
 			}
-			?>
-			
-			
-			<!--<div class="bann-mid1" align="center">-->
-					<!--  ad tags Size: 728x90 ZoneId:1042528-->
-					<!--<script type="text/javascript" src="http://js.adstars.co.id/t/042/528/a1042528.js"></script>-->
-			
-			
-			
+			?>			
 			
 			<div class="terkait">
 				<div class="judulterkait">TERPOPULER</div>
