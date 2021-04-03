@@ -74,9 +74,6 @@
 	
     </div>
 
-    <div class="iklan_ataslife_rd bannerRight">
-        <img src="/fileadmin/banners/post-jumat-agung-2021.jpg" />
-    </div>
     
     <!-- <div class=iklan_ataslife_rd><a href="http://www.satuharapan.com/uploads/tx_macinabanners/AdLarryBrook.jpg" target="_blank"><img src="http://www.satuharapan.com/uploads/tx_macinabanners/LarryBrook.jpg" /></a>
     </div>  -->
