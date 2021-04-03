@@ -7,7 +7,8 @@ require "header.php";
 		<div id="ctop-left">
 			<div class="blueTitle"><?=strtoupper($getparentcategory)?></div>
 			<div class="infoberita">
-					
+			
+			
 			<!-- edit by:ben, tgl 20 feb 2016, penambahan kata karikaturis -->
 			<?php
 				if(strtoupper($getparentcategory) =="KARIKATUR"){ ?>
@@ -15,6 +16,9 @@ require "header.php";
 				<?php } else { ?>
 			    <span class="left">Penulis: <?=$getdetailnews[0]['author']?></span> 
 				<?php } ?>
+			
+				
+				<!--<span class="left">Penulis: <?=$getdetailnews[0]['author']?></span>-->
 				<span class="right"><?=$publisdate?></span>
 				<div class="clear"></div>
 			</div>
@@ -86,6 +90,10 @@ require "header.php";
     <div id="lineshare" class="left">
       <div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>" data-color="default" data-size="small" data-count="true" style="display: none;"></div>
       <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+      <!-- <script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
+	   <script type="text/javascript">
+	      new media_line_me.LineButton({"pc":false,"lang":"en","type":"a","text":"<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>","withUrl":true});
+	   </script> -->
     </div>
     <div class="clear"></div>
   </div>
@@ -119,7 +127,16 @@ require "header.php";
 <!--				<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/PlacedBanner635x150.jpg"/> -->
 			</div>
 				<?php } ?>
-											
+
+
+			<!--iklan googlead 
+			<div class="adplus_panjang">
+			
+					
+				
+			</div> -->
+			
+								
 			<?php
 			
 			if(count($berita_terkait)>0){?>
@@ -156,7 +173,15 @@ require "header.php";
 			</div>
 			<?php
 			}
-			?>			
+			?>
+			
+			
+			<!--<div class="bann-mid1" align="center">-->
+					<!--  ad tags Size: 728x90 ZoneId:1042528-->
+					<!--<script type="text/javascript" src="http://js.adstars.co.id/t/042/528/a1042528.js"></script>-->
+			
+			
+			
 			
 			<div class="terkait">
 				<div class="judulterkait">TERPOPULER</div>
@@ -229,10 +254,14 @@ require "header.php";
 	<!-- Sisipan banner -->
 	
 	<div class="bann-mid1">
-		<?php echo getBanner($full1, $banner_path, "bannerMid"); ?>
+	<!--<a href="http://bpkpenaburjakarta.or.id" target="_blank">
+
+	<img src="http://www.satuharapan.com/uploads/hutbpk.jpg"> -->
+	
+		<?php echo getBanner($full1,$banner_path); ?>
 	</div>
 	<div class="bann-mid1">
-		<?php echo getBanner($full2, $banner_path, "bannerMid"); ?>
+		<?php echo getBanner($full2,$banner_path); ?>
 	</div>
 	
     
@@ -242,14 +271,29 @@ require "header.php";
 		require "opini.php";
 		?>
 		
+		
+		
+		<!--<div class="iklanUKI">
+		<a href ="http://www.uki.ac.id" target="_blank">
+		
+		
+		<img src="http://www.satuharapan.com/uploads/tx_macinabanners/Iklan_Satu_Harapan_960x150px-Mahasiswa_Baru.jpg" alt="">
+		
+		</a>				
+		</div>-->
+		
 		<div class="spasi10"> </div>
 		
+		<?php 
+		//require "bannerKC.php"; 
+		?>
+		
 		<div class="bann-mid1">
-			<?php echo getBanner($full4,$banner_path, "bannerMid"); ?>
+			<?php echo getBanner($full4,$banner_path); ?>
 		</div>
 
 		<div class="bann-mid1">
-			<?php echo getBanner($full5,$banner_path, "bannerMid"); ?>
+			<?php echo getBanner($full5,$banner_path); ?>
 		</div>
 						
 		<div id="footermenu">
