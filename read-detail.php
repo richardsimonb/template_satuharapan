@@ -258,10 +258,10 @@ require "header.php";
 
 	<img src="http://www.satuharapan.com/uploads/hutbpk.jpg"> -->
 	
-		<?php echo getBanner($full1,$banner_path); ?>
+		<?php echo getBanner($full1,$banner_path,"bannerMid"); ?>
 	</div>
 	<div class="bann-mid1">
-		<?php echo getBanner($full2,$banner_path); ?>
+		<?php echo getBanner($full2,$banner_path,"bannerMid"); ?>
 	</div>
 	
     
@@ -289,11 +289,11 @@ require "header.php";
 		?>
 		
 		<div class="bann-mid1">
-			<?php echo getBanner($full4,$banner_path); ?>
+			<?php echo getBanner($full4,$banner_path,"bannerMid"); ?>
 		</div>
 
 		<div class="bann-mid1">
-			<?php echo getBanner($full5,$banner_path); ?>
+			<?php echo getBanner($full5,$banner_path,"bannerMid"); ?>
 		</div>
 						
 		<div id="footermenu">
