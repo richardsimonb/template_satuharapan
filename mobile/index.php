@@ -115,7 +115,6 @@ require "header.php";
 
 		<div class="bann-mid1">
 			<?php echo getBanner($full3,$banner_path);?>
-			<img src="/fileadmin/banners/post-jumat-agung-2021.jpg" />
 		</div>
 		
 
