@@ -127,14 +127,6 @@ require "header.php";
 <!--				<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/PlacedBanner635x150.jpg"/> -->
 			</div>
 				<?php } ?>
-
-
-			<!--iklan googlead 
-			<div class="adplus_panjang">
-			
-					
-				
-			</div> -->
 			
 								
 			<?php
@@ -175,14 +167,6 @@ require "header.php";
 			}
 			?>
 			
-			
-			<!--<div class="bann-mid1" align="center">-->
-					<!--  ad tags Size: 728x90 ZoneId:1042528-->
-					<!--<script type="text/javascript" src="http://js.adstars.co.id/t/042/528/a1042528.js"></script>-->
-			
-			
-			
-			
 			<div class="terkait">
 				<div class="judulterkait">TERPOPULER</div>
 				<?php
@@ -216,36 +200,8 @@ require "header.php";
 			</div>
 		</div>
 		<?php
-		require "right.php";
-		
-		
+		require "right.php";		
 		?>
-		
-		<!--iklan adplus-->
-		<!--
-		<div class="adp_readdetail right">
-			<script type="text/javascript">
-			var placementId = "5575249";
-			var sizeId = "170"; 
-			</script><script type="text/javascript" language="javascript" src="http://adr.adplus.co.id/script/adt.js"></script>
-			<noscript>
-			<a href="http://adsrv.adplus.co.id/adlink/3.0/1336/5575249/0/170/ADTECH;loc=300" target="_blank">
-			<img src="http://adsrv.adplus.co.id/adserv/3.0/1336/5575249/0/170/ADTECH;loc=300" border="0" width="300" height="250">
-			</a>
-			</noscript>
-		</div>
-		
-		
-		<div class="adp_readdetail right">
-		
-	
-		</div>
-		-->
-		
-		
-		
-		
-		
 		
         <div class="clear line"></div>
     </div>
