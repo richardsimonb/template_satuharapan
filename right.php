@@ -70,14 +70,10 @@
 	</a>
 	</noscript> -->
 	
-	
-	
     </div>
-
-	<div class="iklan_ataslife_rd bannerRight">
+    <div class="iklan_ataslife_rd bannerRight">
         <img src="/fileadmin/banners/duka-ntt.png" />
     </div>
-    
     <!-- <div class=iklan_ataslife_rd><a href="http://www.satuharapan.com/uploads/tx_macinabanners/AdLarryBrook.jpg" target="_blank"><img src="http://www.satuharapan.com/uploads/tx_macinabanners/LarryBrook.jpg" /></a>
     </div>  -->
               
