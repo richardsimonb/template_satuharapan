@@ -116,16 +116,11 @@ require "header.php";
 	</div>
 
 <!-- penambahan banner image Sukawu by H tgl 6 Des 2016 -->
-			<!-- <?php
+			<?php
 				if(strtoupper($getparentcategory) =="SAINS"){ ?>
-				<div class="share"><a href="http://www.sukawu.com" target="_blank"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/SUKAWU-BANNER-UNTUK-WEBSITE-SATU-HARAPAN.jpg" alt="Cari Kursus, Tempat Pelatihan Berkualitas & Promo Secara Online, Cepat dan Mudah di Sini!" /></a>
-				</div>
-				<?php } else { ?> -->
-			<!--iklan googlead -->
-			
-                        <div class="share">
-<!--				<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/PlacedBanner635x150.jpg"/> -->
-			</div>
+				
+				<?php } else { ?>
+				
 				<?php } ?>
 			
 								
