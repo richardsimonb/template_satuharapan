@@ -74,11 +74,9 @@
 	
     </div>
 
-	<div class=iklan_ataslife_rd>
-		<a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
-			<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
-		</a>
-	</div>
+	<div class="iklan_ataslife_rd bannerRight">
+        <img src="/fileadmin/banners/duka-ntt.png" />
+    </div>
     
     <!-- <div class=iklan_ataslife_rd><a href="http://www.satuharapan.com/uploads/tx_macinabanners/AdLarryBrook.jpg" target="_blank"><img src="http://www.satuharapan.com/uploads/tx_macinabanners/LarryBrook.jpg" /></a>
     </div>  -->
@@ -182,7 +180,11 @@
   <?php
 //  require "liferight.php";
   ?>
-	
+	<div class=iklan_ataslife_rd>
+		<a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
+			<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
+		</a>
+	</div>
   <!-- <div class=iklan_ataslife_rd>
         <a href="#" target="_blank">
             <img src="http://www.satuharapan.com/fileadmin/user_upload/banners/banner_zuri_oktober_1.jpg" width="309" />
