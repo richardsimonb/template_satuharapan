@@ -61,6 +61,8 @@ foreach($listnewsopini as $latestnews)
 	$counter++;
 }?>
 
+<div class="clear"></div>
+
 <!-- Konten Parenting -->
 <?php
 $counter = 0;
