@@ -50,7 +50,7 @@ require "header.php";
 				<?php
 		
 				if($counterimg>1){?>
-			<!--	<div class="imgpagingarea right">
+				<!--<div class="imgpagingarea right">
 					<?php
 					for($counterimg=0;$counterimg<count($imgexplode);$counterimg++){?>
 					<span class="left pagingimg"><?=$counterimg+1?></span>
@@ -83,9 +83,8 @@ require "header.php";
     </div>
 
     <div id="fbshare" class="left"><div class="fb-share-button" data-href="<?=$short_url;?>" data-type="button_count"></div></div>
-    <!-- Place this tag where you want the share button to render. -->
+    
     <div id="whatsappshare" class="left">
-      <!-- share ke Whatsapp by H tgl 1 Nov 2016 -->
       <a href="whatsapp://send?text=<?='https://www.satuharapan.com'?><?=$_SERVER['REQUEST_URI']?>" data-action="share/whatsapp/share">
       <img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/WA-share.jpg" width="80px" height="20px" alt="Bagikan ke WhatsApp" /></a>
     </div>
@@ -97,6 +96,7 @@ require "header.php";
 	
     <div class="clear"></div>
   </div>
+
 <div class="center">
   <div class="fb-page" data-href="https://www.facebook.com/satuharapan/" data-tabs="" data-width="500" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/satuharapan/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/satuharapan/">Satu Harapan</a></blockquote></div>
 </div>
@@ -129,8 +129,8 @@ require "header.php";
 			if(count($berita_terkait)>0){?>
 			<div class="terkait">
 				<div class="judulterkait">BERITA TERKAIT 
-                                         <!-- <?=strtoupper($getparentcategory)?> -->
-                                </div>
+                    <!-- <?=strtoupper($getparentcategory)?> -->
+                </div>
 				<?php
 				$counter = 0;
 				$class = "left";
