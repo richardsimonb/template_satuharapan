@@ -3,8 +3,8 @@ if($namepage=="category.php"){
 ?>
 <!-- Header Start -->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="id" xmlns="http://www.w3.org/1999/xhtml" xml:lang="id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78633708-1"></script>
