@@ -73,7 +73,7 @@ if($namepage=="category.php"){
 	<title><?=$title?> - Satu Harapan</title>
 	
 	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/reset.css" />
-	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/desktop.css?v=1604" />
+	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/desktop.css?v=16041" />
 	<link rel="shortcut icon" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/favicon.ico" />
 	
 	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/jquery-1.9.1.min.js?v=1"></script>
