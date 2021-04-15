@@ -17,6 +17,7 @@ if($namepage=="category.php"){
 	</script>
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="content-language" content="In-Id">
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta name="author" content="PT. Satu Harapan Media | satuharapan.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,27 +26,30 @@ if($namepage=="category.php"){
 	<meta name="robots" content="index, follow">
 	<meta name="language" content="id">
 	<meta name="geo.country" content="id">
-	<meta http-equiv="content-language" content="In-Id">
 	<meta name="geo.placename" content="Indonesia">
+	<meta name="rating" content="general" />
 	<meta name="google-site-verification" content="GN62cXC9ihahXR5tf_A3wopqATomzuHEJAjbvKKP0LE" />
 
+	<!-- Keyword -->
+	<?php
+	if($keyword){
+	?>
+        <meta name="keywords" content="<?=$keyword?>" />
+	<?php
+	} else {
+	?>
+		<meta name="keywords" content="Satu Harapan, Berbagi Ruang Dalam Keberagaman, Telling News and Milenial Life, Berita" />
+	<?php
+	}
+	?>
+
+	<!-- Facebook Plugin -->
 	<meta property="og:title" content="<?=$title?> - Satu Harapan" />
 	<meta property="og:description" content="<?=$desc?>" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="<?='/uploads/pics/'.$og_img?>" />
 	<meta property="og:site_name" content="satuharapan.com" />
 	<meta property="og:url" content="https://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
-
-	<?php
-	if($keyword){
-	?>
-        <meta name="keywords" content="<?=$keyword?>" />
-	    
-	<?php
-	} else {?>
-		<meta name="keywords" content="Satu Harapan, Berbagi Ruang Dalam Keberagaman, Telling News and Milenial Life, Berita" />
-	<?php }
-	?>
 	<?php
 	if($pages_require == "read-detail.php"){
 	?>
@@ -57,21 +61,20 @@ if($namepage=="category.php"){
 		<link rel="canonical" href="https://www.satuharapan.com"/>
 	<?php }
 	?>
-
-	<meta name="rating" content="general" />
+	
+	<!-- Twitter Plugin -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@1harapan" />
 	<meta name="twitter:title" content="<?=$title?>" />
     <meta name="twitter:description" content="<?=$desc?>" />
 	<meta name="twitter:image" content="<?='/uploads/pics/'.$og_img?>" />
     <meta name="twitter:url" content="https://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];?>" />
-	
+
 	<title><?=$title?> - Satu Harapan</title>
 	
-	<!--<base href="<?='https://www.satuharapan.com'?>">-->
-	
 	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/reset.css" />
-	<!--<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/text.css" />-->
+	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/style2.css?version=1.3" />
+	<link rel="shortcut icon" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/favicon.ico" />
 
 	<style>
 		/*
@@ -162,9 +165,6 @@ if($namepage=="category.php"){
 		  margin-bottom: 20px;
 		}
 	</style>
-
-	<link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/style2.css?version=1.3" />
-	<link rel="shortcut icon" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/favicon.ico" />
 	
 	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/jquery-1.9.1.min.js?v=1"></script>
 	<script type="text/javascript">
@@ -225,11 +225,6 @@ if($namepage=="category.php"){
 	    });
     </script>
 	
-	<!--
-	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/date_time.js"></script>
-	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/date.js"></script>
-	-->
-	
 	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/jquery.setup.js?v=1.1"></script>
 	<script type="text/javascript" src="<?='https://www.satuharapan.com'.'/'.PATH_template?>js/jquery.carouFredSel-6.1.0-packed.js?v=1"></script>
     
@@ -238,12 +233,10 @@ if($namepage=="category.php"){
         twttr.conversion.trackPid('l5fxo');
     </script>
     <noscript>
-    <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l5fxo&p_id=Twitter" />
-    <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5fxo&p_id=Twitter" /></noscript>
+      <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l5fxo&p_id=Twitter" />
+      <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5fxo&p_id=Twitter" />
+	</noscript>
 
-    <!--Galeri foto
-        <link rel="stylesheet" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>css/bootstrap.min.css" />
-    -->
     <style type='text/css'>
         #toTop {opacity:0.8;padding:5px;position:fixed; bottom:2px; right:5px;cursor:pointer;display:none}
     </style>
@@ -286,6 +279,7 @@ if($namepage=="category.php"){
     <?php
     }
     ?>
+
 	<div id="loading-image">
 	    <span>Loading...</span>
 	</div>
