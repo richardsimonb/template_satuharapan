@@ -58,7 +58,7 @@ if($namepage=="category.php"){
 	<?php
 	} else { ?>
 		<meta name="description" content="Satuharapan.com - Berbagi Ruang dalam Keberagaman" />
-		<link rel="canonical" href="https://www.satuharapan.com"/>
+		<link rel="canonical" href="<?'https://www.satuharapan.com'."/".$route?>"/>
 	<?php }
 	?>
 	
