@@ -68,8 +68,7 @@ foreach($listnewsopini as $latestnews)
 $counter = 0;
 foreach($listnewsparenting as $latestnews)
 {
-	$class = "latesttype2";
-	if($counter>0){$class="latesttype3";}
+	$class = "latesttype3";
 ?>
     <div class="<?=$class?>">
     	<div class="blueTitle">
