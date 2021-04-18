@@ -18,10 +18,10 @@
     
     #loading-image img{height:10px;left:50%;margin-left:-40px;margin-top:-5px;position:absolute;top:50%;width:80px;}
     #loading-image span{background:none repeat scroll 0 0 #F37C43;position:fixed;right:0;text-align:center;width:80px;color:#fff;}
-    #header{width:1000px;background:#ECECEC;margin:0 auto;}
+    #header{width:1000px;background:#fff;margin:0 auto;}
     /* banner top dirapikan ke tengah, by :ben tgl 11-11-14 */
     #header #hd-bann{padding:0 0 15px;}
-    #header #hd-comp{background:#ECECEC;padding:0 15px;}
+    #header #hd-comp{background:#fff;padding:0 15px;}
     #header #hd-comp #bg-hd-comp{color:#000;background-color:#ff9900;padding:5px 10px;}
     #header #hd-comp #comp-left{font-family:helvetica;font-size:12.4px;float:left;text-align:left;text-transform:uppercase;}
     #header #hd-comp #comp-right{float:right;text-align:right;}
@@ -56,7 +56,7 @@
     #header #hd-logo #logo-right #wth .gr{color:#8CC63F;margin-left:10px;}
     #header #hd-logo #logo-right #wth .bl{color:#2E3192;font-size:16px;margin-right:15px;}
     /*#header #hd-logo #logo-right #wth .or{color:#F37C43;font-size:16px;}*/
-    #header #hd-hbar{background:#ECECEC;padding:0 15px;}
+    #header #hd-hbar{background:#fff;padding:0 15px;}
     #header #hd-hbar #bg-hd-hbar{background-color:#0000c2;color:#FFF;padding:5px 10px;}
     #header #hd-hbar #hbar-left{float:left;text-align:left;font-size:13px;}
     #header #hd-hbar #hbar-left ul{list-style-type:none;margin:0;}
@@ -68,7 +68,7 @@
     #header #hd-hbar #hbar-left a img{position:relative;bottom:2px;}
     #header #hd-hbar #hbar-right{float:right;text-align:right;}
     #header #hd-hbar #hbar-right #sub-menu{width:80px;height:24px;float:right;text-align:center;margin-left:3px;background-color:#F37C43;margin-top:3px;}
-    #header #hd-hnav{background:#ECECEC;padding:0 15px;}
+    #header #hd-hnav{background:#fff;padding:0 15px;}
     #header #hd-hnav #bg-hd-hnav{padding:0 10px;margin:10px 0 0;background-color:#3d1f7a;}
     #header #hd-hnav ul{margin:5px 0 0;padding:3px 0;list-style-type:none;font-size:13px;text-transform:uppercase;}
     
@@ -94,7 +94,7 @@
     #header #hd-hnav ul ul li{float:none;background:none;}
     #header #hd-hnav ul ul li a{color:#2E3192;border-bottom:1px dotted #666;}
     #header #hd-hnav ul ul li a:hover{color:#F37C43;}
-    #content{width:970px;padding:15px 15px 20px;margin:0 auto;color:#444;background:#ececec;}
+    #content{width:970px;padding:15px 15px 20px;margin:0 auto;color:#444;background:#fff;}
     #content #ct-top{height:auto;padding:0;margin:0 auto 10px;width:960px;}
     .more{background:url("../images/plus.jpg") no-repeat;width:10px;height:10px;display:inline-block;}
     .homepage #ctop-left{width:635px;float:left;}
