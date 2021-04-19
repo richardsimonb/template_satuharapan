@@ -22,7 +22,7 @@
     /* banner top dirapikan ke tengah, by :ben tgl 11-11-14 */
     #header #hd-bann{padding:0 0 15px;}
     #header #hd-comp{background:#fff;padding:0 15px;}
-    #header #hd-comp #bg-hd-comp{color:#000;background-color:#ff9900;padding:5px 10px;}
+    #header #hd-comp #bg-hd-comp{color:#000;background-color:#91c8ff;padding:5px 10px;}
     #header #hd-comp #comp-left{font-family:helvetica;font-size:12.4px;float:left;text-align:left;text-transform:uppercase;}
     #header #hd-comp #comp-right{float:right;text-align:right;}
     #header #hd-comp #comp-right ul{list-style-type:none;}
