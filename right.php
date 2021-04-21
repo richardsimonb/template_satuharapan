@@ -52,7 +52,7 @@
 	
     </div>
     <div class="iklan_ataslife_rd bannerRight">
-        <img src="/fileadmin/banners/duka-ntt.png" />
+        <img src="/fileadmin/banners/kartini2021res.png" />
     </div>
 
     <br>
