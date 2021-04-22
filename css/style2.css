@@ -32,28 +32,28 @@
     .marginT10{
         margin-top:10px;
     }
-    
+
     h1 {
         font-size: 25px;
       }
       
-      h2 {
+    h2 {
         font-size: 23px;
       }
       
-      h3 {
+    h3 {
         font-size: 21px;
       }
       
-      h4 {
+    h4 {
         font-size: 19px;
       }
       
-      h5 {
+    h5 {
         font-size: 17px;
       }
       
-      h6 {
+    h6 {
         font-size: 15px;
       }
     
@@ -179,6 +179,7 @@
     #information ol{padding-left:20px;}
     .infoberita{margin-top:10px;font-size:14px;}
     .titleberita h1{font-size:40px;line-height:50px;font-weight:normal;}
+    .titleberita h5{font-size:16px;}
     .titleberita,.infoberita,.isiberita{margin-top:10px;}
     .caption{width:635px;height: auto; line-height: 19.5px; text-align:justify}
     .bann-mid1{margin-bottom:20px;}
