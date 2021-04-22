@@ -32,30 +32,6 @@
     .marginT10{
         margin-top:10px;
     }
-
-    h1 {
-        font-size: 25px;
-      }
-      
-    h2 {
-        font-size: 23px;
-      }
-      
-    h3 {
-        font-size: 21px;
-      }
-      
-    h4 {
-        font-size: 19px;
-      }
-      
-    h5 {
-        font-size: 17px;
-      }
-      
-    h6 {
-        font-size: 15px;
-      }
     
     #loading-image img{height:10px;left:50%;margin-left:-40px;margin-top:-5px;position:absolute;top:50%;width:80px;}
     #loading-image span{background:none repeat scroll 0 0 #F37C43;position:fixed;right:0;text-align:center;width:80px;color:#fff;}
