@@ -7,7 +7,6 @@
         font-family:calibri,helvetica,din,arial,sans-serif;
         font-size:13px;
         background:#ececec;
-        line-height: 1.5;
     }
     a{
         text-decoration:none;color:#F37C43;
@@ -165,7 +164,10 @@
     .listterkait img{width:140px;height:94px;}
     .listterkait.left{margin-right:15px;}
     .listterkait .titleterkait{width:140px;}
-    .titleterkait a{font-size:14px;color:#393839}
+    .titleterkait a{
+        font-size:14px;
+        color:#393839
+    }
     .titleterkait a:hover{color:#f26522;}
     .pagingimg{padding:0 4px;color:#fff;background:orange;border-radius:24px;-moz-border-radius:24px;-webkit-border-radius:24px;margin-right:3px;}
     .pagingimg.selected{background:#469fde;}
