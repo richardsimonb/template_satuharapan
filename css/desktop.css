@@ -162,13 +162,13 @@
     #information ol{padding-left:20px;}
     .infoberita{margin-top:10px;font-size:14px;}
     .titleberita h1{font-size:40px;line-height:50px;font-weight:normal;}
-    .titleberita h5{font-size:16px;}
+    .titleberita h5{font-size:16px;line-height:1.5;}
     .titleberita,.infoberita,.isiberita{margin-top:10px;}
     .caption{width:635px;height: auto; line-height: 19.5px; text-align:justify}
     .bann-mid1{margin-bottom:20px;}
     .isiberita{font-size:16px;line-height:20px;margin-top:30px;}
     .isiberita ol,ul{margin-left:30px;}
-    .terkait{background:#dddddd;padding:15px;margin-bottom:15px;}
+    .terkait{background:#ececec;padding:15px;margin-bottom:15px;}
     .listterkait img{width:140px;height:94px;}
     .listterkait.left{margin-right:15px;}
     .listterkait .titleterkait{width:140px;}
