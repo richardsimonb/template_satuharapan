@@ -51,9 +51,12 @@
 	
 	
     </div>
-    <div class="iklan_ataslife_rd bannerRight">
-        <img src="/fileadmin/banners/kartini2021res.png" />
-    </div>
+    
+	<div class=iklan_ataslife_rd>
+		<a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
+			<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
+		</a>
+	</div>
 
     <br>
 
@@ -112,12 +115,6 @@
 <?php
     }
     ?>
-
-	<div class=iklan_ataslife_rd>
-		<a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
-			<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
-		</a>
-	</div>
 
 </div>           
 
