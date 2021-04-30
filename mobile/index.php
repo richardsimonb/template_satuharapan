@@ -148,8 +148,9 @@ require "header.php";
 		?>
 
 		<!-- Tempat Banner full5 -->
-		<div class="share none">
-            		<div><a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>			
+		<div class="share">
+			<img src="/fileadmin/banners/hariburuh.png" />
+            <div class="none"><a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>			
 		</div>
 
 		<!-- Facebook Page Plugin -->
