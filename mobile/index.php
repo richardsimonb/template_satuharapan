@@ -115,7 +115,7 @@ require "header.php";
 
 		<div class="bann-mid1">
 			<?php echo getBanner($full3,$banner_path);?>
-			<img src="/fileadmin/banners/hardiknaspnbrs.png" />
+			<img src="/fileadmin/banners/hardiknaspnbrs.jpeg" />
 		</div>
 		
 
@@ -150,7 +150,7 @@ require "header.php";
 		<!-- Tempat Banner full5 -->
 		<div class="share">
             <div class="none"><a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>
-			<img src="/fileadmin/banners/hardiknaspnbrs.jpeg" />
+			<img src="/fileadmin/banners/hardiknas.png" />
 		</div>
 
 		<!-- Facebook Page Plugin -->
