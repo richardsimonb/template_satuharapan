@@ -2,7 +2,7 @@
 	<div class="iklan_ataslife_rd bannerRight">
         <img src="/fileadmin/banners/hardiknaspnbrs.jpeg" />
     </div>
-	<div class="clear"></div>
+	<br>
 	<!-- Bagian Atas -->
 	<div class="blueTitle"><?=$title_blue?></div>
 	<div id="ctop-right-photo">
