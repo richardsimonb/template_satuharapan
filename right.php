@@ -1,5 +1,7 @@
 <div id="ctop-right">
-	
+	<div class="iklan_ataslife_rd bannerRight">
+        <img src="/fileadmin/banners/hardiknaspnbrs.png" />
+    </div>
 	<!-- Bagian Atas -->
 	<div class="blueTitle"><?=$title_blue?></div>
 	<div id="ctop-right-photo">
