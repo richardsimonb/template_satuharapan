@@ -115,7 +115,7 @@ require "header.php";
 
 		<div class="bann-mid1">
 			<?php echo getBanner($full3,$banner_path);?>
-			<img src="/fileadmin/banners/krinanggala.png" />
+			<img src="/fileadmin/banners/hardiknas.png" />
 		</div>
 		
 
