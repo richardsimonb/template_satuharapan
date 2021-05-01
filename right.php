@@ -120,10 +120,6 @@
 		<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
 	</a>
 </div>
-
-<div class="iklan_ataslife_rd bannerRight">
-	<img src="/fileadmin/banners/hariburuh.png" />
-</div>
 	
 </div>           
 
