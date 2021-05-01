@@ -150,7 +150,7 @@ require "header.php";
 		<!-- Tempat Banner full5 -->
 		<div class="share">
             <div class="none"><a href="<?='https://www.satuharapan.com'.'/'.PATH_template?>/images/WismaSinarKasih0263_512609.jpg" target="_blank"><img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" /></a></div>
-			<img src="/fileadmin/banners/hardiknaspnbrs.png" />
+			<img src="/fileadmin/banners/hardiknaspnbrs.jpeg" />
 		</div>
 
 		<!-- Facebook Page Plugin -->
