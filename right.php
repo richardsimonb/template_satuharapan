@@ -54,7 +54,9 @@
 	
 	
     </div>
-    
+	
+    <br>
+
     <?php 
     if($pages_require !="read-detail.php")
     {
