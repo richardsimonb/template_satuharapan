@@ -55,14 +55,6 @@
 	
     </div>
     
-	<div class="iklan_ataslife_rd bannerRight">
-        <img src="/fileadmin/banners/hardiknas.png" />
-    </div>
-
-	
-
-    <br>
-
     <?php 
     if($pages_require !="read-detail.php")
     {
