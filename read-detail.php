@@ -75,7 +75,7 @@ require "header.php";
 			?>
 
 			<div class="isiberita"><?=$isi_process?></div>
-
+  <br>
   <div class="share">
 
     <div id="twshare" class="left">
