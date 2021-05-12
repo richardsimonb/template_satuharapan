@@ -56,6 +56,8 @@
 		<a class="none" href="<?='https://www.satuharapan.com'.'/'.PATH_template?>images/WismaSinarKasih0263_512609.jpg" target="_blank">
 			<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>mobile/images/BannerWismaSinarKasih309x220.jpg" />
 		</a>
+	</div>
+	<div class="bannerRight">
 		<img src="/fileadmin/banners/kenaikan21.jpg">
 	</div>
 
