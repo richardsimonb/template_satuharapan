@@ -1,6 +1,6 @@
 <div id="ctop-right">
 	
-	<div class="iklan_ataslife_rd">
+	<div class="iklan_ataslife_rd bannerRight">
 		<img src="/fileadmin/banners/post-hari-lahir-pancasila-2021.jpg" />
 	</div>
 
