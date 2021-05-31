@@ -1,7 +1,7 @@
 <div id="ctop-right">
 	
 	<div class="iklan_ataslife_rd">
-		<img src="<?='https://www.satuharapan.com'.'/'.PATH_template?>fileadmin/banners/post-hari-lahir-pancasila-2021.jpg" />
+		<img src="/fileadmin/banners/post-hari-lahir-pancasila-2021.jpg" />
 	</div>
 
     <br>
