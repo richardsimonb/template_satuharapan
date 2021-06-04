@@ -1,11 +1,5 @@
 <div id="ctop-right">
 	
-	<div class="iklan_ataslife_rd bannerRight">
-		<img src="/fileadmin/banners/post-hari-lahir-pancasila-2021.jpg" />
-	</div>
-
-    <br>
-
 	<!-- Bagian Atas -->
 	<div class="blueTitle"><?=$title_blue?></div>
 	<div id="ctop-right-photo">
