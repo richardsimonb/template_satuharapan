@@ -92,7 +92,6 @@ require "header.php";
 		echo getBanner($mid_half1_kiri,$banner_path,"left");
 		echo getBanner($mid_half1_kanan,$banner_path,"right");
 		?>
-		<img src="/fileadmin/banners/post-hari-lahir-pancasila-2021.jpg"/>
 		<div class="clear"></div>
 	</div>
 
