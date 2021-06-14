@@ -91,7 +91,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 border-top:0.1em solid #C9D9E7}
 #primary .nav > a{color:#000;font-size:1.2em;text-shadow:0.1em 0.1em 0.1em #444}
 #primary .nav > li{width:19%;float:left;background:none;border:0.1em solid rgba(0,0,0,0);border-top:0;border-bottom:0}
-#primary .nav > li > a{text-decoration:none;text-align:center;display:block;padding:3.9em 0 1em;background-image:url("../images/sprite.svg");-webkit-background-size:3.125em 54.495em;-o-background-size:3.125em 54.495em;background-size:3.125em 54.495em;background-repeat:no-repeat;font-size:0.75em;color:#FFF}
+#primary .nav > li > a{text-decoration:none;text-align:center;display:block;padding:3.9em 0 1em;background-image:url("../images/sprite.svg");-webkit-background-size:3.125em 54.495em;-o-background-size:3.125em 54.495em;background-size:3.125em 54.495em;background-repeat:no-repeat;font-size:0.75em;color:#000}
 .no-svg #primary .nav > li > a{background-image:url("../images/sprite.png");-webkit-background-size:2.875em 45.25em;-o-background-size:2.875em 45.25em;background-size:2.875em 45.25em}
 .n-home{background-position:center -16.2em}
 .n-info{background-position:center -24.8em}
