@@ -125,6 +125,7 @@ require "header.php";
 			echo getBanner($mid_half3_kiri,$banner_path,"left");
 			echo getBanner($mid_half3_kanan,$banner_path,"right");
 			?>
+			<img src="/fileadmin/banners/caturpenabur.gif"/>
 			<div class="clear"></div>
 		</div>
 
